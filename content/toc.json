@@ -1,0 +1,702 @@
+[
+  {
+    "section_id": "pg001_sec001",
+    "href": "index.html",
+    "title": "Jiografia na Mazingira",
+    "chapter_id": "pg001_n0003",
+    "level": 1
+  },
+  {
+    "section_id": "pg003_sec001",
+    "href": "pg003_sec001.html",
+    "title": "Yaliyomo",
+    "chapter_id": "pg003_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg006_sec001",
+    "href": "pg006_sec001.html",
+    "title": "Utangulizi",
+    "chapter_id": "pg006_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg007_sec001",
+    "href": "pg007_sec001.html",
+    "title": "Sura ya Kwanza",
+    "chapter_id": "pg007_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg008_sec001",
+    "href": "pg008_sec001.html",
+    "title": "Zoezi la kwanza",
+    "chapter_id": "pg008_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg008_sec002",
+    "href": "pg008_sec002.html",
+    "title": "Aina za ramani",
+    "chapter_id": "pg008_n0007",
+    "level": 2
+  },
+  {
+    "section_id": "pg009_sec001",
+    "href": "pg009_sec001.html",
+    "title": "Ramani ya Topografia ya Mkoa wa Tanga",
+    "chapter_id": "pg009_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg010_sec001",
+    "href": "pg010_sec001.html",
+    "title": "Ramani ya Tanzania ya Mipaka ya Tawala za Mikoa",
+    "chapter_id": "pg010_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg010_sec002",
+    "href": "pg010_sec002.html",
+    "title": "Ramani za barabara na reli",
+    "chapter_id": "pg010_n0018",
+    "level": 2
+  },
+  {
+    "section_id": "pg011_sec001",
+    "href": "pg011_sec001.html",
+    "title": "Ramani ya Mtandao wa Barabara na Reli Tanzania",
+    "chapter_id": "pg011_n0006",
+    "level": 3
+  },
+  {
+    "section_id": "pg012_sec002",
+    "href": "pg012_sec002.html",
+    "title": "Ramani za thematiki",
+    "chapter_id": "pg012_n0008",
+    "level": 2
+  },
+  {
+    "section_id": "pg013_sec001",
+    "href": "pg013_sec001.html",
+    "title": "Ramani ya Mtawanyiko wa Watu katika Mkoa wa Tabora",
+    "chapter_id": "pg013_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg014_sec001",
+    "href": "pg014_sec001.html",
+    "title": "Mtwanyiko wa Mvua katika Mkoa wa Iringa",
+    "chapter_id": "pg014_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg015_sec001",
+    "href": "pg015_sec001.html",
+    "title": "Ramani ya Mipango Miji",
+    "chapter_id": "pg015_n0004",
+    "level": 2
+  },
+  {
+    "section_id": "pg015_sec002",
+    "href": "pg015_sec002.html",
+    "title": "Zoezi la tatu",
+    "chapter_id": "pg015_n0035",
+    "level": 3
+  },
+  {
+    "section_id": "pg016_sec002",
+    "href": "pg016_sec002.html",
+    "title": "Kazi ya kufanya namba 1",
+    "chapter_id": "pg016_n0036",
+    "level": 3
+  },
+  {
+    "section_id": "pg017_sec001",
+    "href": "pg017_sec001.html",
+    "title": "Vipengele muhimu vya ramani",
+    "chapter_id": "pg017_n0003",
+    "level": 2
+  },
+  {
+    "section_id": "pg018_sec001",
+    "href": "pg018_sec001.html",
+    "title": "RAMANI YA TANZANIA",
+    "chapter_id": "pg018_n0013",
+    "level": 3
+  },
+  {
+    "section_id": "pg019_sec001",
+    "href": "pg019_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg019_n0007",
+    "level": 3
+  },
+  {
+    "section_id": "pg020_sec001",
+    "href": "pg020_sec001.html",
+    "title": "Sifa za ramani",
+    "chapter_id": "pg020_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg021_sec001",
+    "href": "pg021_sec001.html",
+    "title": "Zoezi la nne",
+    "chapter_id": "pg021_n0026",
+    "level": 3
+  },
+  {
+    "section_id": "pg021_sec002",
+    "href": "pg021_sec002.html",
+    "title": "Zoezi la marudio",
+    "chapter_id": "pg021_n0029",
+    "level": 2
+  },
+  {
+    "section_id": "pg023_sec002",
+    "href": "pg023_sec002.html",
+    "title": "Sehemu B:",
+    "chapter_id": "pg023_n0018",
+    "level": 3
+  },
+  {
+    "section_id": "pg024_sec001",
+    "href": "pg024_sec001.html",
+    "title": "C:",
+    "chapter_id": "pg024_n0008",
+    "level": 3
+  },
+  {
+    "section_id": "pg024_sec002",
+    "href": "pg024_sec002.html",
+    "title": "Msamiati",
+    "chapter_id": "pg024_n0021",
+    "level": 2
+  },
+  {
+    "section_id": "pg025_sec001",
+    "href": "pg025_sec001.html",
+    "title": "Sura ya Pili",
+    "chapter_id": "pg025_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg025_sec002",
+    "href": "pg025_sec002.html",
+    "title": "Utangulizi",
+    "chapter_id": "pg025_n0006",
+    "level": 2
+  },
+  {
+    "section_id": "pg025_sec003",
+    "href": "pg025_sec003.html",
+    "title": "Fikiri",
+    "chapter_id": "pg025_n0014",
+    "level": 2
+  },
+  {
+    "section_id": "pg025_sec004",
+    "href": "pg025_sec004.html",
+    "title": "Maana ya Pande Kuu za Dunia",
+    "chapter_id": "pg025_n0017",
+    "level": 2
+  },
+  {
+    "section_id": "pg026_sec002",
+    "href": "pg026_sec002.html",
+    "title": "Kazi ya kufanya namba 1",
+    "chapter_id": "pg026_n0005",
+    "level": 3
+  },
+  {
+    "section_id": "pg027_sec001",
+    "href": "pg027_sec001.html",
+    "title": "Zoezi la kwanza",
+    "chapter_id": "pg027_n0013",
+    "level": 3
+  },
+  {
+    "section_id": "pg028_sec001",
+    "href": "pg028_sec001.html",
+    "title": "Njia za kubaini Pande Kuu za Dunia",
+    "chapter_id": "pg028_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg029_sec001",
+    "href": "pg029_sec001.html",
+    "title": "Kielelezo namba 2:",
+    "chapter_id": "pg029_n0008",
+    "level": 3
+  },
+  {
+    "section_id": "pg029_sec002",
+    "href": "pg029_sec002.html",
+    "title": "Zoezi la pili",
+    "chapter_id": "pg029_n0022",
+    "level": 3
+  },
+  {
+    "section_id": "pg030_sec002",
+    "href": "pg030_sec002.html",
+    "title": "Kubaini Pande Kuu za Dunia kwa kutumia ramani",
+    "chapter_id": "pg030_n0006",
+    "level": 2
+  },
+  {
+    "section_id": "pg031_sec001",
+    "href": "pg031_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg031_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg032_sec001",
+    "href": "pg032_sec001.html",
+    "title": "Hatua za kubaini pande za dunia kwa kutumia dira",
+    "chapter_id": "pg032_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg032_sec002",
+    "href": "pg032_sec002.html",
+    "title": "Kazi ya kufanya namba 4",
+    "chapter_id": "pg032_n0026",
+    "level": 3
+  },
+  {
+    "section_id": "pg034_sec001",
+    "href": "pg034_sec001.html",
+    "title": "Kielelezo namba 6: Kubaini uelekeo",
+    "chapter_id": "pg034_n0025",
+    "level": 3
+  },
+  {
+    "section_id": "pg035_sec002",
+    "href": "pg035_sec002.html",
+    "title": "Zoezi la tatu",
+    "chapter_id": "pg035_n0018",
+    "level": 3
+  },
+  {
+    "section_id": "pg035_sec003",
+    "href": "pg035_sec003.html",
+    "title": "Umuhimu wa Pande Kuu za Dunia",
+    "chapter_id": "pg035_n0025",
+    "level": 2
+  },
+  {
+    "section_id": "pg036_sec001",
+    "href": "pg036_sec001.html",
+    "title": "Kazi ya kufanya namba 6",
+    "chapter_id": "pg036_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg036_sec002",
+    "href": "pg036_sec002.html",
+    "title": "Zoezi la marudio",
+    "chapter_id": "pg036_n0006",
+    "level": 2
+  },
+  {
+    "section_id": "pg037_sec002",
+    "href": "pg037_sec002.html",
+    "title": "Maswali ya majibu mafupi",
+    "chapter_id": "pg037_n0013",
+    "level": 3
+  },
+  {
+    "section_id": "pg038_sec002",
+    "href": "pg038_sec002.html",
+    "title": "Msamiati",
+    "chapter_id": "pg038_n0016",
+    "level": 2
+  },
+  {
+    "section_id": "pg039_sec001",
+    "href": "pg039_sec001.html",
+    "title": "Sura ya Tatu",
+    "chapter_id": "pg039_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg039_sec002",
+    "href": "pg039_sec002.html",
+    "title": "Utangulizi",
+    "chapter_id": "pg039_n0005",
+    "level": 2
+  },
+  {
+    "section_id": "pg039_sec003",
+    "href": "pg039_sec003.html",
+    "title": "Fikiri",
+    "chapter_id": "pg039_n0012",
+    "level": 2
+  },
+  {
+    "section_id": "pg039_sec004",
+    "href": "pg039_sec004.html",
+    "title": "Dhana ya uchoraji wa ramani",
+    "chapter_id": "pg039_n0015",
+    "level": 2
+  },
+  {
+    "section_id": "pg040_sec001",
+    "href": "pg040_sec001.html",
+    "title": "Alama za ramani",
+    "chapter_id": "pg040_n0012",
+    "level": 2
+  },
+  {
+    "section_id": "pg041_sec002",
+    "href": "pg041_sec002.html",
+    "title": "Zoezi la kwanza",
+    "chapter_id": "pg041_n0006",
+    "level": 3
+  },
+  {
+    "section_id": "pg042_sec001",
+    "href": "pg042_sec001.html",
+    "title": "Ramani Sahili ya Shule ya Msingi Mbuga",
+    "chapter_id": "pg042_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg042_sec002",
+    "href": "pg042_sec002.html",
+    "title": "Kazi ya kufanya namba 2",
+    "chapter_id": "pg042_n0012",
+    "level": 3
+  },
+  {
+    "section_id": "pg043_sec001",
+    "href": "pg043_sec001.html",
+    "title": "Skeli ya ramani",
+    "chapter_id": "pg043_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg044_sec001",
+    "href": "pg044_sec001.html",
+    "title": "Kuchora ramani sahili",
+    "chapter_id": "pg044_n0020",
+    "level": 2
+  },
+  {
+    "section_id": "pg045_sec001",
+    "href": "pg045_sec001.html",
+    "title": "Kuchora ramani sahili ya darasa",
+    "chapter_id": "pg045_n0025",
+    "level": 3
+  },
+  {
+    "section_id": "pg046_sec001",
+    "href": "pg046_sec001.html",
+    "title": "Kuchora ramani sahili ya shule",
+    "chapter_id": "pg046_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg046_sec002",
+    "href": "pg046_sec002.html",
+    "title": "Zoezi la pili",
+    "chapter_id": "pg046_n0023",
+    "level": 3
+  },
+  {
+    "section_id": "pg047_sec001",
+    "href": "pg047_sec001.html",
+    "title": "Kuchora ramani ya kata",
+    "chapter_id": "pg047_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg048_sec001",
+    "href": "pg048_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg048_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg048_sec002",
+    "href": "pg048_sec002.html",
+    "title": "Kuchora ramani ya wilaya",
+    "chapter_id": "pg048_n0024",
+    "level": 3
+  },
+  {
+    "section_id": "pg049_sec001",
+    "href": "pg049_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg049_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg049_sec002",
+    "href": "pg049_sec002.html",
+    "title": "Kazi ya kufanya namba 7",
+    "chapter_id": "pg049_n0014",
+    "level": 3
+  },
+  {
+    "section_id": "pg049_sec003",
+    "href": "pg049_sec003.html",
+    "title": "Kuchora ramani ya Tanzania",
+    "chapter_id": "pg049_n0022",
+    "level": 3
+  },
+  {
+    "section_id": "pg050_sec001",
+    "href": "pg050_sec001.html",
+    "title": "Kazi ya kufanya namba 8",
+    "chapter_id": "pg050_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg050_sec002",
+    "href": "pg050_sec002.html",
+    "title": "Zoezi la tatu",
+    "chapter_id": "pg050_n0023",
+    "level": 3
+  },
+  {
+    "section_id": "pg050_sec003",
+    "href": "pg050_sec003.html",
+    "title": "Uchoraji wa ramani kidijitali",
+    "chapter_id": "pg050_n0029",
+    "level": 2
+  },
+  {
+    "section_id": "pg051_sec001",
+    "href": "pg051_sec001.html",
+    "title": "Mambo ya kuzingatia",
+    "chapter_id": "pg051_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg056_sec001",
+    "href": "pg056_sec001.html",
+    "title": "Ramani ya swaga swaga",
+    "chapter_id": "pg056_n0004",
+    "level": 3
+  },
+  {
+    "section_id": "pg057_sec001",
+    "href": "pg057_sec001.html",
+    "title": "Zoezi la marudio",
+    "chapter_id": "pg057_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg058_sec002",
+    "href": "pg058_sec002.html",
+    "title": "Msamiati",
+    "chapter_id": "pg058_n0034",
+    "level": 2
+  },
+  {
+    "section_id": "pg059_sec001",
+    "href": "pg059_sec001.html",
+    "title": "Sura ya Nne",
+    "chapter_id": "pg059_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg059_sec002",
+    "href": "pg059_sec002.html",
+    "title": "Fikiri",
+    "chapter_id": "pg059_n0018",
+    "level": 2
+  },
+  {
+    "section_id": "pg060_sec001",
+    "href": "pg060_sec001.html",
+    "title": "Kutumia ramani kubaini uelekeo na mahali",
+    "chapter_id": "pg060_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg061_sec002",
+    "href": "pg061_sec002.html",
+    "title": "Ramani sahili ya Mtaa wa Songambele",
+    "chapter_id": "pg061_n0014",
+    "level": 3
+  },
+  {
+    "section_id": "pg062_sec001",
+    "href": "pg062_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg062_n0004",
+    "level": 3
+  },
+  {
+    "section_id": "pg063_sec001",
+    "href": "pg063_sec001.html",
+    "title": "Upimaji wa umbali ulionyooka",
+    "chapter_id": "pg063_n0012",
+    "level": 2
+  },
+  {
+    "section_id": "pg067_sec001",
+    "href": "pg067_sec001.html",
+    "title": "Kazi ya kufanya namba 4",
+    "chapter_id": "pg067_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg070_sec001",
+    "href": "pg070_sec001.html",
+    "title": "Kazi ya kufanya namba 5",
+    "chapter_id": "pg070_n0006",
+    "level": 3
+  },
+  {
+    "section_id": "pg071_sec001",
+    "href": "pg071_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg071_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg073_sec001",
+    "href": "pg073_sec001.html",
+    "title": "2. Kutumia bikari",
+    "chapter_id": "pg073_n0008",
+    "level": 2
+  },
+  {
+    "section_id": "pg075_sec001",
+    "href": "pg075_sec001.html",
+    "title": "Kazi ya kufanya namba 6",
+    "chapter_id": "pg075_n0007",
+    "level": 3
+  },
+  {
+    "section_id": "pg076_sec001",
+    "href": "pg076_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg076_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg079_sec002",
+    "href": "pg079_sec002.html",
+    "title": "Kutumia ramani kubaini mipaka ya kiutawala",
+    "chapter_id": "pg079_n0008",
+    "level": 2
+  },
+  {
+    "section_id": "pg080_sec001",
+    "href": "pg080_sec001.html",
+    "title": "Kazi ya kufanya namba 8",
+    "chapter_id": "pg080_n0008",
+    "level": 3
+  },
+  {
+    "section_id": "pg081_sec001",
+    "href": "pg081_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg081_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg082_sec001",
+    "href": "pg082_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg082_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg082_sec002",
+    "href": "pg082_sec002.html",
+    "title": "Kutumia ramani kubaini maumbo ya sura ya nchi",
+    "chapter_id": "pg082_n0008",
+    "level": 2
+  },
+  {
+    "section_id": "pg083_sec001",
+    "href": "pg083_sec001.html",
+    "title": "Ramani ya Wilaya ya Karatu",
+    "chapter_id": "pg083_n0008",
+    "level": 3
+  },
+  {
+    "section_id": "pg084_sec001",
+    "href": "pg084_sec001.html",
+    "title": "Kutumia ramani kubaini mtawanyiko wa vitu na watu",
+    "chapter_id": "pg084_n0001",
+    "level": 2
+  },
+  {
+    "section_id": "pg085_sec001",
+    "href": "pg085_sec001.html",
+    "title": "Kazi ya kufanya namba 12",
+    "chapter_id": "pg085_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg086_sec001",
+    "href": "pg086_sec001.html",
+    "title": "Maswali",
+    "chapter_id": "pg086_n0002",
+    "level": 3
+  },
+  {
+    "section_id": "pg087_sec002",
+    "href": "pg087_sec002.html",
+    "title": "Zoezi la marudio",
+    "chapter_id": "pg087_n0002",
+    "level": 2
+  },
+  {
+    "section_id": "pg088_sec002",
+    "href": "pg088_sec002.html",
+    "title": "B. Maswali ya kuoanisha",
+    "chapter_id": "pg088_n0044",
+    "level": 3
+  },
+  {
+    "section_id": "pg089_sec001",
+    "href": "pg089_sec001.html",
+    "title": "Maswali ya majibu mafupi",
+    "chapter_id": "pg089_n0003",
+    "level": 3
+  },
+  {
+    "section_id": "pg089_sec002",
+    "href": "pg089_sec002.html",
+    "title": "Msamiati",
+    "chapter_id": "pg089_n0023",
+    "level": 2
+  },
+  {
+    "section_id": "pg090_sec001",
+    "href": "pg090_sec001.html",
+    "title": "Jaribio",
+    "chapter_id": "pg090_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg092_sec002",
+    "href": "pg092_sec002.html",
+    "title": "Sehemu B: Maswali ya majibu mafupi",
+    "chapter_id": "pg092_n0037",
+    "level": 2
+  },
+  {
+    "section_id": "pg093_sec002",
+    "href": "pg093_sec002.html",
+    "title": "Sehemu C:",
+    "chapter_id": "pg093_n0005",
+    "level": 2
+  },
+  {
+    "section_id": "pg095_sec001",
+    "href": "pg095_sec001.html",
+    "title": "Sehemu D: Kusoma ramani",
+    "chapter_id": "pg095_n0002",
+    "level": 2
+  }
+]

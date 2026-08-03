@@ -1,0 +1,1533 @@
+{
+  "akaunti": {
+    "word": "akaunti",
+    "definition": "usajili wa mtumiaji unaomruhusu kutumia huduma fulani mtandaoni.",
+    "variations": [
+      "akaunti",
+      "akaunti za"
+    ],
+    "emoji": "👤🔐"
+  },
+  "alama": {
+    "word": "alama",
+    "definition": "ishara au nukta inayowekwa kuonyesha sehemu fulani.",
+    "variations": [
+      "alama",
+      "alama nyekundu",
+      "alama za"
+    ],
+    "emoji": "🔴✍️"
+  },
+  "alama za ramani": {
+    "word": "alama za ramani",
+    "definition": "Michoro midogo inayotumika kwenye ramani kuwakilisha vitu halisi kama barabara, shule au mto.",
+    "variations": [
+      "alama ya ramani",
+      "alama mbalimbali za ramani"
+    ],
+    "emoji": "🗺️🔣"
+  },
+  "analojia": {
+    "word": "analojia",
+    "definition": "Kitu kisicho cha kidigitali katika muundo au namna ya kufanya kazi.",
+    "variations": [
+      "analojia"
+    ],
+    "emoji": "⚙️📻"
+  },
+  "anuani": {
+    "word": "anuani",
+    "definition": "jina au maelezo ya sehemu ya mtandaoni au mahali pa kutafutia kitu.",
+    "variations": [
+      "anuani"
+    ],
+    "emoji": "📍🔗"
+  },
+  "ardhi": {
+    "word": "ardhi",
+    "definition": "uso wa nchi au sehemu halisi ya nchi tunayoishi na kutembea juu yake.",
+    "variations": [
+      "ardhi",
+      "ardhini"
+    ],
+    "emoji": "🌍🏞️"
+  },
+  "atlasi": {
+    "word": "atlasi",
+    "definition": "kitabu chenye ramani nyingi za maeneo mbalimbali.",
+    "variations": [
+      "atlasi",
+      "atlasi za ramani"
+    ],
+    "emoji": "📘🗺️"
+  },
+  "bahari": {
+    "word": "bahari",
+    "definition": "eneo kubwa sana la maji ya chumvi.",
+    "variations": [
+      "bahari",
+      "bahari ya hindi"
+    ],
+    "emoji": "🌊"
+  },
+  "barabara": {
+    "word": "barabara",
+    "definition": "njia inayotumika na watu na vyombo vya usafiri kupita.",
+    "variations": [
+      "barabara",
+      "barabara za"
+    ],
+    "emoji": "🛣️"
+  },
+  "bikari": {
+    "word": "bikari",
+    "definition": "kifaa cha kuchorea duara au kusaidia kupima umbali katika ramani.",
+    "variations": [
+      "bikari"
+    ],
+    "emoji": "🧭📐"
+  },
+  "bonde": {
+    "word": "bonde",
+    "definition": "Sehemu ya chini kati ya vilima au milima.",
+    "variations": [
+      "bonde",
+      "mabonde"
+    ],
+    "emoji": "🏞️"
+  },
+  "CAD": {
+    "word": "CAD",
+    "definition": "programu za kompyuta zinazosaidia kuchora na kubuni vitu kwa usahihi.",
+    "variations": [
+      "CAD",
+      "Computer Aided Design"
+    ],
+    "emoji": "📐💻"
+  },
+  "chanzo": {
+    "word": "chanzo",
+    "definition": "Mahali au taasisi ambako taarifa za ramani zilipopatikana.",
+    "variations": [
+      "chanzo",
+      "vyanzo"
+    ],
+    "emoji": "📚🏢"
+  },
+  "dharura": {
+    "word": "dharura",
+    "definition": "hali ya ghafla inayohitaji msaada wa haraka, kama moto au mafuriko.",
+    "variations": [
+      "dharura"
+    ],
+    "emoji": "🚨⏰"
+  },
+  "dira": {
+    "word": "dira",
+    "definition": "Kifaa kinachosaidia kuonesha uelekeo, hasa upande wa Kaskazini.",
+    "variations": [
+      "madira"
+    ],
+    "emoji": "🧭"
+  },
+  "fremu": {
+    "word": "fremu",
+    "definition": "Mpaka wa nje unaozunguka ramani.",
+    "variations": [
+      "fremu"
+    ],
+    "emoji": "🖼️🗺️"
+  },
+  "fundo": {
+    "word": "fundo",
+    "definition": "sehemu ya uzi au kamba iliyofungwa ili kuweka alama.",
+    "variations": [
+      "fundo",
+      "mafundo"
+    ],
+    "emoji": "🪢🧵"
+  },
+  "GIS": {
+    "word": "GIS",
+    "definition": "Mfumo wa taarifa za kijiografia unaotumika kukusanya, kuhifadhi na kuonyesha taarifa za maeneo kwenye ramani za kidijitali.",
+    "variations": [
+      "GIS",
+      "mfumo wa taarifa za kijiografia"
+    ],
+    "emoji": "💻🗺️📍"
+  },
+  "Google My Maps": {
+    "word": "Google My Maps",
+    "definition": "programu ya Google inayotumika kutengeneza na kuchora ramani.",
+    "variations": [
+      "Google My Maps",
+      "My Maps"
+    ],
+    "emoji": "🗺️💻📍"
+  },
+  "GPS": {
+    "word": "GPS",
+    "definition": "teknolojia inayosaidia kujua mahali ulipo na uelekeo wa kwenda.",
+    "variations": [
+      "GPS"
+    ],
+    "emoji": "📍🛰️"
+  },
+  "gridi": {
+    "word": "gridi",
+    "definition": "Mistari inayokatana kwenye ramani ili kusaidia kubaini mahali kwa usahihi.",
+    "variations": [
+      "gridi",
+      "mistari ya gridi"
+    ],
+    "emoji": "#️⃣🗺️"
+  },
+  "hali ya hewa": {
+    "word": "hali ya hewa",
+    "definition": "Hali ya anga ya eneo fulani kwa wakati au kipindi fulani, kama joto na mvua.",
+    "variations": [
+      "hali ya hewa"
+    ],
+    "emoji": "☁️🌦️"
+  },
+  "hifadhi": {
+    "word": "hifadhi",
+    "definition": "Eneo lililotengwa kwa ajili ya kulinda wanyama, mimea, au mazingira ya asili.",
+    "variations": [
+      "hifadhi",
+      "hifadhi ya Swaga Swaga"
+    ],
+    "emoji": "🌿🦓"
+  },
+  "hospitali": {
+    "word": "hospitali",
+    "definition": "mahali watu hupata matibabu.",
+    "variations": [
+      "hospitali",
+      "hospitali za"
+    ],
+    "emoji": "🏥"
+  },
+  "huduma za jamii": {
+    "word": "huduma za jamii",
+    "definition": "Huduma muhimu zinazotolewa kwa watu, kama shule, hospitali na polisi.",
+    "variations": [
+      "huduma za jamii"
+    ],
+    "emoji": "🏫🏥👥"
+  },
+  "idadi ya watu": {
+    "word": "idadi ya watu",
+    "definition": "Jumla ya watu wanaoishi katika eneo fulani.",
+    "variations": [
+      "idadi ya watu"
+    ],
+    "emoji": "👥📊"
+  },
+  "ikoni": {
+    "word": "ikoni",
+    "definition": "alama ndogo kwenye skrini inayowakilisha kazi au programu fulani.",
+    "variations": [
+      "ikoni",
+      "ikoni mbalimbali"
+    ],
+    "emoji": "🖱️🔘"
+  },
+  "ishara": {
+    "word": "ishara",
+    "definition": "kitu kinachotumika kuonesha maana fulani, hasa kwenye ramani.",
+    "variations": [
+      "ishara",
+      "ishara za ramani"
+    ],
+    "emoji": "🚩🗺️"
+  },
+  "jiografia": {
+    "word": "jiografia",
+    "definition": "Somo linalochunguza uso wa dunia, maeneo yake, na vitu vilivyopo katika maeneo hayo.",
+    "variations": [
+      "jiografia"
+    ],
+    "emoji": "🌍🗺️"
+  },
+  "joto": {
+    "word": "joto",
+    "definition": "Kiwango cha ubaridi au uchangamfu wa hewa au mazingira.",
+    "variations": [
+      "joto"
+    ],
+    "emoji": "🌡️☀️"
+  },
+  "kanisa": {
+    "word": "kanisa",
+    "definition": "jengo au mahali pa ibada kwa Wakristo.",
+    "variations": [
+      "kanisa",
+      "makanisa"
+    ],
+    "emoji": "⛪"
+  },
+  "Kaskazini": {
+    "word": "Kaskazini",
+    "definition": "Moja ya pande kuu za dunia. Dira huonesha upande huu.",
+    "variations": [
+      "upande wa Kaskazini"
+    ],
+    "emoji": "🧭⬆️"
+  },
+  "Kaskazini-Magharibi": {
+    "word": "Kaskazini-Magharibi",
+    "definition": "upande wa katikati ya Kaskazini na Magharibi.",
+    "variations": [
+      "Kaskazini-Magharibi",
+      "Kas-Magh"
+    ],
+    "emoji": "↖️🧭"
+  },
+  "Kaskazini-Mashariki": {
+    "word": "Kaskazini-Mashariki",
+    "definition": "upande wa katikati ya Kaskazini na Mashariki.",
+    "variations": [
+      "Kaskazini-Mashariki",
+      "Kas-Mas"
+    ],
+    "emoji": "↗️🧭"
+  },
+  "kata": {
+    "word": "kata",
+    "definition": "eneo la kiutawala linalojumuisha vijiji au mitaa kadhaa.",
+    "variations": [
+      "kata",
+      "kata za"
+    ],
+    "emoji": "📍🏘️"
+  },
+  "katografa": {
+    "word": "katografa",
+    "definition": "Mtu anayechora ramani.",
+    "variations": [
+      "wakatografa"
+    ],
+    "emoji": "🧑‍🎨🗺️"
+  },
+  "katografia": {
+    "word": "katografia",
+    "definition": "Taaluma ya uchoraji wa ramani.",
+    "variations": [
+      "taaluma ya katografia"
+    ],
+    "emoji": "🗺️📚"
+  },
+  "kichwa cha ramani": {
+    "word": "kichwa cha ramani",
+    "definition": "Jina la ramani linaloonesha ramani hiyo inahusu nini.",
+    "variations": [
+      "kichwa cha ramani",
+      "vichwa vya ramani"
+    ],
+    "emoji": "📝🗺️"
+  },
+  "kidijitali": {
+    "word": "kidijitali",
+    "definition": "Kitu kinachotumia kompyuta au vifaa vya kielektroniki kufanya kazi.",
+    "variations": [
+      "vitu vya kidijitali",
+      "teknolojia ya kidijitali"
+    ],
+    "emoji": "💻📱"
+  },
+  "kielelezo": {
+    "word": "kielelezo",
+    "definition": "mchoro au picha inayosaidia kueleza jambo.",
+    "variations": [
+      "kielelezo",
+      "vielelezo"
+    ],
+    "emoji": "🖼️📘"
+  },
+  "kigezo": {
+    "word": "kigezo",
+    "definition": "Jambo au msingi unaotumika kupanga au kutofautisha vitu.",
+    "variations": [
+      "kigezo",
+      "vigezo"
+    ],
+    "emoji": "📌📚"
+  },
+  "kijiografia": {
+    "word": "kijiografia",
+    "definition": "Inayohusu maeneo ya dunia, mazingira na mahali vitu vilipo.",
+    "variations": [
+      "kijiografia",
+      "jiografia"
+    ],
+    "emoji": "🌍📌"
+  },
+  "kilometa": {
+    "word": "kilometa",
+    "definition": "kipimo cha umbali mrefu chenye meta 1000.",
+    "variations": [
+      "kilometa",
+      "km"
+    ],
+    "emoji": "🛣️📏"
+  },
+  "kimataifa": {
+    "word": "kimataifa",
+    "definition": "kinachohusu nchi zaidi ya moja au uhusiano kati ya nchi mbalimbali.",
+    "variations": [
+      "kimataifa",
+      "wa kimataifa"
+    ],
+    "emoji": "🌍"
+  },
+  "kiolesura": {
+    "word": "kiolesura",
+    "definition": "Sehemu ya programu au kifaa unayoiona na kuitumia kufanya kazi.",
+    "variations": [
+      "kiolesura",
+      "violesura"
+    ],
+    "emoji": "🖥️👆"
+  },
+  "kipande cha karatasi": {
+    "word": "kipande cha karatasi",
+    "definition": "sehemu ya karatasi inayoweza kutumika kupima au kuweka alama.",
+    "variations": [
+      "kipande cha karatasi",
+      "vipande vya karatasi"
+    ],
+    "emoji": "📄✂️"
+  },
+  "kipanya": {
+    "word": "kipanya",
+    "definition": "kifaa cha kompyuta kinachotumika kuongoza kishale na kuchagua vitu kwenye skrini.",
+    "variations": [
+      "kipanya",
+      "gurudumu la kipanya"
+    ],
+    "emoji": "🖱️"
+  },
+  "kishale": {
+    "word": "kishale",
+    "definition": "alama au mshale mdogo kwenye skrini unaoonesha unachochagua.",
+    "variations": [
+      "kishale",
+      "vishale"
+    ],
+    "emoji": "🖱️➡️"
+  },
+  "kisiwa": {
+    "word": "kisiwa",
+    "definition": "eneo la nchi lililozungukwa na maji pande zote.",
+    "variations": [
+      "kisiwa",
+      "visiwa"
+    ],
+    "emoji": "🏝️"
+  },
+  "kituo": {
+    "word": "kituo",
+    "definition": "sehemu au pointi inayotumiwa kama mahali pa kuanzia au kuishia katika kipimo.",
+    "variations": [
+      "kituo",
+      "vituo"
+    ],
+    "emoji": "📍🏁"
+  },
+  "kivinjari": {
+    "word": "kivinjari",
+    "definition": "Programu inayotumika kufungua na kutazama tovuti kwenye mtandao.",
+    "variations": [
+      "kivinjari",
+      "vivinjari"
+    ],
+    "emoji": "🌐💻"
+  },
+  "kivuli": {
+    "word": "kivuli",
+    "definition": "giza linalotokea mwanga unapozuiwa na kitu au mtu.",
+    "variations": [
+      "kivuli",
+      "vivuli"
+    ],
+    "emoji": "🌑"
+  },
+  "kokotoa": {
+    "word": "kokotoa",
+    "definition": "fanya hesabu ili kupata jibu la kipimo au tatizo.",
+    "variations": [
+      "kokotoa",
+      "kukokotoa",
+      "kokotoo"
+    ],
+    "emoji": "➕🧮"
+  },
+  "kompyuta": {
+    "word": "kompyuta",
+    "definition": "kifaa cha kielektroniki kinachotumika kufanya kazi mbalimbali kama kuchora ramani.",
+    "variations": [
+      "kompyuta",
+      "kompyuta za"
+    ],
+    "emoji": "💻"
+  },
+  "kontua": {
+    "word": "kontua",
+    "definition": "mistari kwenye ramani inayoonesha kuinuka au kushuka kwa ardhi.",
+    "variations": [
+      "kontua",
+      "mistari ya kontua"
+    ],
+    "emoji": "〰️🗺️"
+  },
+  "kupakana": {
+    "word": "kupakana",
+    "definition": "kuwa jirani na eneo lingine kwa kushirikiana mpaka.",
+    "variations": [
+      "kupakana",
+      "inapakana",
+      "imepakana"
+    ],
+    "emoji": "🤝🗺️"
+  },
+  "Kusini": {
+    "word": "Kusini",
+    "definition": "Moja ya pande kuu za dunia iliyo mkabala na Kaskazini.",
+    "variations": [
+      "upande wa Kusini"
+    ],
+    "emoji": "🧭⬇️"
+  },
+  "Kusini-Magharibi": {
+    "word": "Kusini-Magharibi",
+    "definition": "upande wa katikati ya Kusini na Magharibi.",
+    "variations": [
+      "Kusini-Magharibi",
+      "Kus-Magh"
+    ],
+    "emoji": "↙️🧭"
+  },
+  "Kusini-Mashariki": {
+    "word": "Kusini-Mashariki",
+    "definition": "upande wa katikati ya Kusini na Mashariki.",
+    "variations": [
+      "Kusini-Mashariki",
+      "Kus-Mas"
+    ],
+    "emoji": "↘️🧭"
+  },
+  "mabonde": {
+    "word": "mabonde",
+    "definition": "maeneo ya chini yaliyopo katikati ya milima au vilima.",
+    "variations": [
+      "bonde",
+      "mabonde"
+    ],
+    "emoji": "🏞️"
+  },
+  "machweo": {
+    "word": "machweo",
+    "definition": "Wakati wa jioni jua linapozama.",
+    "variations": [
+      "machweo ya jua"
+    ],
+    "emoji": "🌇☀️"
+  },
+  "madereva": {
+    "word": "madereva",
+    "definition": "Watu wanaoendesha magari au vyombo vingine vya usafiri.",
+    "variations": [
+      "dereva",
+      "madereva"
+    ],
+    "emoji": "🚗🛣️"
+  },
+  "Magharibi": {
+    "word": "Magharibi",
+    "definition": "Upande wa dunia ambako jua huzama jioni.",
+    "variations": [
+      "upande wa Magharibi"
+    ],
+    "emoji": "🌇⬅️"
+  },
+  "majanga": {
+    "word": "majanga",
+    "definition": "Matukio makubwa ya hatari au uharibifu, kama moto au mafuriko.",
+    "variations": [
+      "janga",
+      "majanga"
+    ],
+    "emoji": "🔥🌊⚠️"
+  },
+  "makao makuu ya nchi": {
+    "word": "makao makuu ya nchi",
+    "definition": "mji au eneo kuu ambako shughuli muhimu za uongozi wa nchi hufanyika.",
+    "variations": [
+      "makao makuu ya nchi",
+      "makao makuu"
+    ],
+    "emoji": "🏛️🇹🇿"
+  },
+  "makazi": {
+    "word": "makazi",
+    "definition": "Mahali ambapo watu wanaishi.",
+    "variations": [
+      "makazi",
+      "eneo la makazi",
+      "maeneo ya makazi"
+    ],
+    "emoji": "🏠🏘️"
+  },
+  "manahodha": {
+    "word": "manahodha",
+    "definition": "Watu wanaoongoza meli au vyombo vikubwa vya usafiri majini.",
+    "variations": [
+      "nahodha",
+      "manahodha"
+    ],
+    "emoji": "🚢🧭"
+  },
+  "mandhari": {
+    "word": "mandhari",
+    "definition": "mwonekano wa sehemu ya eneo, kama milima, mito, mabonde au misitu.",
+    "variations": [
+      "mandhari"
+    ],
+    "emoji": "🏞️🌍"
+  },
+  "marubani": {
+    "word": "marubani",
+    "definition": "Watu wanaoendesha ndege.",
+    "variations": [
+      "rubani",
+      "marubani"
+    ],
+    "emoji": "✈️🧭"
+  },
+  "Mashariki": {
+    "word": "Mashariki",
+    "definition": "Upande wa dunia ambako jua huchomoza asubuhi.",
+    "variations": [
+      "upande wa Mashariki"
+    ],
+    "emoji": "🌅➡️"
+  },
+  "masoroveya": {
+    "word": "masoroveya",
+    "definition": "Wataalamu wanaopima ardhi na maeneo mbalimbali.",
+    "variations": [
+      "soroveya",
+      "masoroveya"
+    ],
+    "emoji": "📏🌍"
+  },
+  "mawio": {
+    "word": "mawio",
+    "definition": "Wakati wa asubuhi jua linapochomoza.",
+    "variations": [
+      "mawio ya jua"
+    ],
+    "emoji": "🌅☀️"
+  },
+  "mazingira": {
+    "word": "mazingira",
+    "definition": "Vitu na hali zote zinazotuzunguka, kama ardhi, maji, hewa, mimea na wanyama.",
+    "variations": [
+      "mazingira"
+    ],
+    "emoji": "🌿🌍"
+  },
+  "mbuga": {
+    "word": "mbuga",
+    "definition": "Eneo kubwa la asili linalohifadhi wanyama na mimea.",
+    "variations": [
+      "mbuga",
+      "mbuga maarufu"
+    ],
+    "emoji": "🦁🌳"
+  },
+  "mchoro": {
+    "word": "mchoro",
+    "definition": "picha au taswira ya kitu au eneo iliyochorwa ili kukionyesha.",
+    "variations": [
+      "mchoro",
+      "michoro"
+    ],
+    "emoji": "✏️🖼️"
+  },
+  "menyu": {
+    "word": "menyu",
+    "definition": "orodha ya machaguo ndani ya programu au kifaa.",
+    "variations": [
+      "menyu"
+    ],
+    "emoji": "📋💻"
+  },
+  "meta": {
+    "word": "meta",
+    "definition": "kipimo cha urefu au umbali.",
+    "variations": [
+      "meta",
+      "m"
+    ],
+    "emoji": "📐📏"
+  },
+  "migogoro": {
+    "word": "migogoro",
+    "definition": "Kutokuelewana au mabishano makubwa kati ya watu au nchi.",
+    "variations": [
+      "mgogoro",
+      "migogoro"
+    ],
+    "emoji": "⚠️🤝"
+  },
+  "miinuko": {
+    "word": "miinuko",
+    "definition": "Kiwango cha juu au chini cha ardhi katika sehemu mbalimbali.",
+    "variations": [
+      "mwinuko",
+      "miinuko"
+    ],
+    "emoji": "⛰️⬆️"
+  },
+  "milima": {
+    "word": "milima",
+    "definition": "maeneo ya ardhi yaliyoinuka juu sana kuliko maeneo yanayozunguka.",
+    "variations": [
+      "mlima",
+      "milima"
+    ],
+    "emoji": "⛰️"
+  },
+  "mipaka": {
+    "word": "mipaka",
+    "definition": "Mistari au sehemu inayotenganisha eneo moja na jingine.",
+    "variations": [
+      "mpaka",
+      "mipaka"
+    ],
+    "emoji": "📍🚧"
+  },
+  "mipaka ya kiutawala": {
+    "word": "mipaka ya kiutawala",
+    "definition": "Mistari au maeneo yanayotenganisha wilaya, mikoa au nchi kwa utawala.",
+    "variations": [
+      "mipaka ya kiutawala",
+      "mpaka wa kiutawala",
+      "mipaka"
+    ],
+    "emoji": "🧭📍"
+  },
+  "mipango miji": {
+    "word": "mipango miji",
+    "definition": "mpangilio wa nyumba, barabara na huduma katika mji au kijiji.",
+    "variations": [
+      "mipango miji"
+    ],
+    "emoji": "🏘️🛣️"
+  },
+  "mistari ya gridi": {
+    "word": "mistari ya gridi",
+    "definition": "Mistari inayogawanya ramani katika sehemu ndogo ili kusaidia kutafuta maeneo kwa urahisi.",
+    "variations": [
+      "mstari wa gridi",
+      "mistari ya gridi",
+      "gridi"
+    ],
+    "emoji": "#️⃣🗺️"
+  },
+  "mistari ya kontua": {
+    "word": "mistari ya kontua",
+    "definition": "Mistari kwenye ramani inayoonyesha sehemu zenye kimo sawa kutoka usawa wa bahari.",
+    "variations": [
+      "mistari ya kontua",
+      "kontua",
+      "mstari wa kontua"
+    ],
+    "emoji": "🏔️🗺️"
+  },
+  "mkoa": {
+    "word": "mkoa",
+    "definition": "sehemu ya nchi iliyogawanywa kiutawala.",
+    "variations": [
+      "mkoa",
+      "mikoa"
+    ],
+    "emoji": "🏞️"
+  },
+  "mlima": {
+    "word": "mlima",
+    "definition": "eneo la ardhi lililoinuka sana kuliko maeneo ya kawaida.",
+    "variations": [
+      "mlima",
+      "milima"
+    ],
+    "emoji": "⛰️"
+  },
+  "mpaka": {
+    "word": "mpaka",
+    "definition": "mstari au sehemu inayotenganisha eneo moja na eneo jingine.",
+    "variations": [
+      "mpaka",
+      "mipaka",
+      "mpaka wa mkoa",
+      "mpaka wa kimataifa"
+    ],
+    "emoji": "📍🗺️"
+  },
+  "mraba": {
+    "word": "mraba",
+    "definition": "umbo lenye pande nne zinazolingana.",
+    "variations": [
+      "mraba",
+      "miraba"
+    ],
+    "emoji": "⬜"
+  },
+  "msikiti": {
+    "word": "msikiti",
+    "definition": "jengo au mahali pa ibada kwa Waislamu.",
+    "variations": [
+      "msikiti",
+      "misikiti"
+    ],
+    "emoji": "🕌"
+  },
+  "msitu": {
+    "word": "msitu",
+    "definition": "eneo lenye miti mingi kwa pamoja.",
+    "variations": [
+      "msitu",
+      "misitu"
+    ],
+    "emoji": "🌳🌲"
+  },
+  "mstari": {
+    "word": "mstari",
+    "definition": "Alama ndefu ya kuchora inayoweza kuwa nyoofu au ya kupinda.",
+    "variations": [
+      "mstari",
+      "mistari"
+    ],
+    "emoji": "📏➖"
+  },
+  "mstari ulionyooka": {
+    "word": "mstari ulionyooka",
+    "definition": "mstari unaokwenda moja kwa moja bila kupinda.",
+    "variations": [
+      "mstari ulionyooka",
+      "mistari iliyonyooka"
+    ],
+    "emoji": "📏➡️"
+  },
+  "mstari usionyooka": {
+    "word": "mstari usionyooka",
+    "definition": "mstari unaopinda au kugeuka badala ya kwenda moja kwa moja.",
+    "variations": [
+      "mstari usionyooka",
+      "mistari isiyonyooka"
+    ],
+    "emoji": "〰️🛣️"
+  },
+  "mstatili": {
+    "word": "mstatili",
+    "definition": "umbo lenye pande nne, ambapo pande mbili mbili hulingana kwa urefu.",
+    "variations": [
+      "mstatili",
+      "mistatili"
+    ],
+    "emoji": "▭"
+  },
+  "mtandao": {
+    "word": "mtandao",
+    "definition": "muunganisho wa intaneti unaowezesha kupata taarifa mtandaoni.",
+    "variations": [
+      "mtandao"
+    ],
+    "emoji": "🌐📶"
+  },
+  "mtandao wa barabara": {
+    "word": "mtandao wa barabara",
+    "definition": "Muunganiko wa barabara mbalimbali katika eneo au nchi.",
+    "variations": [
+      "mtandao wa barabara",
+      "mitandao ya barabara"
+    ],
+    "emoji": "🛣️🔗"
+  },
+  "mtandao wa barabara na reli": {
+    "word": "mtandao wa barabara na reli",
+    "definition": "mpangilio wa barabara na reli unaounganisha sehemu mbalimbali.",
+    "variations": [
+      "mtandao wa barabara na reli"
+    ],
+    "emoji": "🛣️🚆"
+  },
+  "mtawanyiko": {
+    "word": "mtawanyiko",
+    "definition": "Namna watu au vitu vilivyosambaa katika maeneo tofauti.",
+    "variations": [
+      "mtawanyiko",
+      "mitawanyiko"
+    ],
+    "emoji": "📍👥"
+  },
+  "mtawanyiko wa mvua": {
+    "word": "mtawanyiko wa mvua",
+    "definition": "Namna mvua inavyopatikana na kusambaa katika maeneo mbalimbali.",
+    "variations": [
+      "mtawanyiko wa mvua",
+      "msambao wa mvua"
+    ],
+    "emoji": "🌧️☁️"
+  },
+  "mteremko": {
+    "word": "mteremko",
+    "definition": "hali ya ardhi kushuka au kupanda kwa kuinama.",
+    "variations": [
+      "mteremko",
+      "miteremko"
+    ],
+    "emoji": "📉⛰️"
+  },
+  "mteremko mkali": {
+    "word": "mteremko mkali",
+    "definition": "Sehemu ya ardhi inayoshuka au kupanda kwa kasi.",
+    "variations": [
+      "mteremko mkali",
+      "miteremko mikali"
+    ],
+    "emoji": "⛰️⬇️"
+  },
+  "mto": {
+    "word": "mto",
+    "definition": "maji mengi yanayotiririka kutoka sehemu moja kwenda nyingine.",
+    "variations": [
+      "mto",
+      "mito"
+    ],
+    "emoji": "🌊🏞️"
+  },
+  "mvua": {
+    "word": "mvua",
+    "definition": "Maji yanayoshuka kutoka mawinguni kwenda ardhini.",
+    "variations": [
+      "mvua"
+    ],
+    "emoji": "🌧️"
+  },
+  "mwelekeo": {
+    "word": "mwelekeo",
+    "definition": "upande ambao kitu au mtu anaelekea au kilipo, kama kaskazini au mashariki.",
+    "variations": [
+      "mwelekeo",
+      "uelekeo"
+    ],
+    "emoji": "🧭"
+  },
+  "mwinuko": {
+    "word": "mwinuko",
+    "definition": "Urefu wa sehemu fulani kutoka usawa wa bahari.",
+    "variations": [
+      "mwinuko",
+      "miinuko"
+    ],
+    "emoji": "⛰️📏"
+  },
+  "mwonekano": {
+    "word": "mwonekano",
+    "definition": "Namna kitu kinavyoonekana kwa macho, kama sura au mpangilio wake.",
+    "variations": [
+      "mwonekano",
+      "miwonekano"
+    ],
+    "emoji": "👀🎨"
+  },
+  "Pande Kuu za Dunia": {
+    "word": "Pande Kuu za Dunia",
+    "definition": "Pande kuu nne zinazotumika kutambua mahali au mwelekeo, yaani Kaskazini, Kusini, Mashariki na Magharibi.",
+    "variations": [
+      "pande kuu za dunia",
+      "upande wa dunia"
+    ],
+    "emoji": "🌍🧭"
+  },
+  "Pande nane za dunia": {
+    "word": "Pande nane za dunia",
+    "definition": "pande za dunia zinazojumuisha pande kuu nne na pande nyingine nne za katikati.",
+    "variations": [
+      "Pande nane za dunia"
+    ],
+    "emoji": "🧭🌍"
+  },
+  "PDF": {
+    "word": "PDF",
+    "definition": "Aina ya faili la kielektroniki linalotumika kuhifadhi au kusoma nyaraka bila kubadilika kirahisi.",
+    "variations": [
+      "PDF",
+      "faili la PDF"
+    ],
+    "emoji": "📄💾"
+  },
+  "picha": {
+    "word": "picha",
+    "definition": "Taswira inayoonesha umbo la kitu au eneo fulani.",
+    "variations": [
+      "picha",
+      "picha za ramani"
+    ],
+    "emoji": "🖼️📷"
+  },
+  "programu": {
+    "word": "programu",
+    "definition": "mfumo wa kompyuta au simu unaotumika kufanya kazi fulani.",
+    "variations": [
+      "programu",
+      "programu ya Google My Maps",
+      "programu maalumu"
+    ],
+    "emoji": "💻🧩"
+  },
+  "programu tumizi": {
+    "word": "programu tumizi",
+    "definition": "programu inayowekwa kwenye kifaa kama simu au kompyuta ili kufanya kazi fulani.",
+    "variations": [
+      "programu tumizi",
+      "programu tumizi ya dira"
+    ],
+    "emoji": "📲💻"
+  },
+  "ramani": {
+    "word": "ramani",
+    "definition": "Mchoro unaoonesha mahali vitu vilipo katika eneo fulani kwa kutumia alama.",
+    "variations": [
+      "ramani sahili",
+      "ramani za maeneo"
+    ],
+    "emoji": "🗺️📍"
+  },
+  "ramani za barabara na reli": {
+    "word": "ramani za barabara na reli",
+    "definition": "Ramani zinazoonesha njia za usafiri wa barabara na treni pamoja na vitu muhimu njiani.",
+    "variations": [
+      "ramani ya barabara na reli",
+      "ramani za barabara na reli"
+    ],
+    "emoji": "🛣️🚆🗺️"
+  },
+  "ramani za jumla": {
+    "word": "ramani za jumla",
+    "definition": "Ramani zinazoonesha mambo mengi ya eneo kwa pamoja, si jambo moja tu.",
+    "variations": [
+      "ramani ya jumla",
+      "ramani za jumla"
+    ],
+    "emoji": "🗺️🌍"
+  },
+  "ramani za kisiasa": {
+    "word": "ramani za kisiasa",
+    "definition": "Ramani zinazoonesha mipaka ya nchi, mikoa, wilaya na maeneo ya utawala.",
+    "variations": [
+      "ramani ya kisiasa",
+      "ramani za kisiasa"
+    ],
+    "emoji": "🗺️🏛️"
+  },
+  "ramani za mipango miji": {
+    "word": "ramani za mipango miji",
+    "definition": "Ramani zinazoonesha mpangilio wa miji au vijiji, kama makazi, shule, barabara na huduma nyingine.",
+    "variations": [
+      "ramani ya mipango miji",
+      "ramani za mipango miji"
+    ],
+    "emoji": "🏙️🗺️"
+  },
+  "ramani za thematiki": {
+    "word": "ramani za thematiki",
+    "definition": "Ramani zinazoonesha jambo moja maalumu katika eneo, kama mvua, kilimo au watu.",
+    "variations": [
+      "ramani ya thematiki",
+      "ramani za thematiki"
+    ],
+    "emoji": "🗺️📊"
+  },
+  "rangi": {
+    "word": "rangi",
+    "definition": "Hali ya kitu kuwa na kivuli fulani kama kijani, nyekundu, au bluu.",
+    "variations": [
+      "rangi",
+      "rangi mbalimbali",
+      "kijani"
+    ],
+    "emoji": "🎨🟢"
+  },
+  "rasilimali": {
+    "word": "rasilimali",
+    "definition": "vitu vya muhimu vinavyopatikana katika eneo, kama maji, misitu au madini.",
+    "variations": [
+      "rasilimali",
+      "rasilmali"
+    ],
+    "emoji": "💧🌳⛏️"
+  },
+  "reli": {
+    "word": "reli",
+    "definition": "Njia ya chuma inayotumiwa na treni kusafiria.",
+    "variations": [
+      "reli"
+    ],
+    "emoji": "🚆"
+  },
+  "rula": {
+    "word": "rula",
+    "definition": "kifaa cha kupimia au kuchorea mistari iliyonyooka.",
+    "variations": [
+      "rula",
+      "rula ya"
+    ],
+    "emoji": "📏✏️"
+  },
+  "sambamba": {
+    "word": "sambamba",
+    "definition": "hali ya vitu viwili kwenda mwelekeo mmoja bila kukutana.",
+    "variations": [
+      "sambamba"
+    ],
+    "emoji": "↔️📏"
+  },
+  "satelaiti": {
+    "word": "satelaiti",
+    "definition": "Kifaa kinachozunguka dunia angani na kusaidia kupata taarifa kama mahali vitu vilipo.",
+    "variations": [
+      "satelaiti",
+      "satelaiti za"
+    ],
+    "emoji": "🛰️🌍"
+  },
+  "sentimeta": {
+    "word": "sentimeta",
+    "definition": "kipimo kidogo cha urefu; sentimeta 100 ni sawa na meta 1.",
+    "variations": [
+      "sentimeta",
+      "sm"
+    ],
+    "emoji": "📏📎"
+  },
+  "shule": {
+    "word": "shule",
+    "definition": "mahali pa kujifunzia.",
+    "variations": [
+      "shule",
+      "shule za"
+    ],
+    "emoji": "🏫"
+  },
+  "sifa za ramani": {
+    "word": "sifa za ramani",
+    "definition": "Tabia au ubora unaofanya ramani iwe nzuri na rahisi kutumia.",
+    "variations": [
+      "sifa ya ramani",
+      "sifa za ramani"
+    ],
+    "emoji": "⭐🗺️"
+  },
+  "simujanja": {
+    "word": "simujanja",
+    "definition": "simu ya kisasa inayoweza kutumia programu mbalimbali.",
+    "variations": [
+      "simujanja",
+      "simu janja"
+    ],
+    "emoji": "📱💡"
+  },
+  "skeli": {
+    "word": "skeli",
+    "definition": "kipimo kinachoonyesha uhusiano kati ya umbali wa kwenye ramani na umbali halisi.",
+    "variations": [
+      "skeli",
+      "skeli ya mstari",
+      "skeli ya uwiano",
+      "skeli ya uwakilishi wa sehemu"
+    ],
+    "emoji": "📐📏"
+  },
+  "skeli ya mstari": {
+    "word": "skeli ya mstari",
+    "definition": "aina ya skeli inayoonyeshwa kwa mstari wenye namba za kupimia umbali kwenye ramani.",
+    "variations": [
+      "skeli ya mstari",
+      "skeli za mstari"
+    ],
+    "emoji": "📏📊"
+  },
+  "skeli ya ramani": {
+    "word": "skeli ya ramani",
+    "definition": "Uwiano wa umbali wa kwenye ramani na umbali halisi kwenye ardhi.",
+    "variations": [
+      "skeli",
+      "skeli ya mstari",
+      "skeli ya maelezo",
+      "skeli ya uwiano"
+    ],
+    "emoji": "📏🗺️"
+  },
+  "skeli ya uwiano": {
+    "word": "skeli ya uwiano",
+    "definition": "aina ya skeli inayoandikwa kwa namna ya namba mbili, kwa mfano 1:50000, kuonyesha uwiano wa ramani na ardhi halisi.",
+    "variations": [
+      "skeli ya uwiano",
+      "uwiano",
+      "skeli ya uwakilishi wa sehemu"
+    ],
+    "emoji": "🔢📐"
+  },
+  "soko": {
+    "word": "soko",
+    "definition": "mahali pa kuuza na kununua bidhaa.",
+    "variations": [
+      "soko",
+      "masoko"
+    ],
+    "emoji": "🛒🏪"
+  },
+  "sumaku": {
+    "word": "sumaku",
+    "definition": "kitu chenye uwezo wa kuvuta baadhi ya vyuma na hutumika kwenye dira.",
+    "variations": [
+      "sumaku"
+    ],
+    "emoji": "🧲"
+  },
+  "sura ya nchi": {
+    "word": "sura ya nchi",
+    "definition": "umbo la ardhi katika eneo fulani, kama milima, mabonde au tambarare.",
+    "variations": [
+      "sura ya nchi",
+      "maumbo ya sura ya nchi"
+    ],
+    "emoji": "⛰️🌍"
+  },
+  "taarifa za kijografia": {
+    "word": "taarifa za kijografia",
+    "definition": "Maelezo kuhusu vitu vya uso wa dunia kama milima, mito, barabara na makazi.",
+    "variations": [
+      "taarifa za kijografia",
+      "kijografia"
+    ],
+    "emoji": "🌍📘"
+  },
+  "taasisi": {
+    "word": "taasisi",
+    "definition": "Kundi au sehemu rasmi inayotoa huduma fulani, kama shule au mahakama.",
+    "variations": [
+      "taasisi",
+      "taasisi mbalimbali"
+    ],
+    "emoji": "🏫🏛️"
+  },
+  "tableti": {
+    "word": "tableti",
+    "definition": "Kifaa cha kielektroniki kinachofanana na simu kubwa au kompyuta ndogo kwa matumizi ya kusoma na kufanya kazi.",
+    "variations": [
+      "tableti",
+      "tableti za kielektroniki"
+    ],
+    "emoji": "📱💻"
+  },
+  "taifa": {
+    "word": "taifa",
+    "definition": "Nchi pamoja na watu wake.",
+    "variations": [
+      "taifa",
+      "mataifa"
+    ],
+    "emoji": "🏳️🌍"
+  },
+  "tambarare": {
+    "word": "tambarare",
+    "definition": "Eneo pana lililo sawa au lenye mteremko mdogo sana.",
+    "variations": [
+      "tambarare",
+      "sehemu tambarare"
+    ],
+    "emoji": "🌾🟩"
+  },
+  "tambare": {
+    "word": "tambare",
+    "definition": "eneo la ardhi lililo sawa bila miinuko mikubwa.",
+    "variations": [
+      "tambare",
+      "maeneo tambarare"
+    ],
+    "emoji": "🌿⬜"
+  },
+  "topografia": {
+    "word": "topografia",
+    "definition": "Maumbo ya uso wa dunia, kama milima, mabonde na tambarare.",
+    "variations": [
+      "topografia",
+      "ramani ya topografia",
+      "ramani za topografia"
+    ],
+    "emoji": "⛰️🗺️"
+  },
+  "tovuti": {
+    "word": "tovuti",
+    "definition": "ukurasa au kundi la kurasa za mtandaoni.",
+    "variations": [
+      "tovuti",
+      "tovuti ya Google"
+    ],
+    "emoji": "🌐🔗"
+  },
+  "uchoraji wa ramani": {
+    "word": "uchoraji wa ramani",
+    "definition": "Kazi ya kuchora ramani ili kuonesha vitu na maeneo kwa mpangilio unaoeleweka.",
+    "variations": [
+      "kuchora ramani",
+      "uchoraji ramani"
+    ],
+    "emoji": "🗺️✏️"
+  },
+  "uelekeo": {
+    "word": "uelekeo",
+    "definition": "Mwelekeo au upande ambao mtu au kitu kinaenda au kinapatikana.",
+    "variations": [
+      "mwelekeo",
+      "maelekezo ya uelekeo"
+    ],
+    "emoji": "🧭➡️"
+  },
+  "uelekeo wa Kaskazini": {
+    "word": "uelekeo wa Kaskazini",
+    "definition": "Alama au mwongozo unaosaidia kujua upande wa Kaskazini na pande nyingine kwenye ramani.",
+    "variations": [
+      "uelekeo wa Kaskazini",
+      "Kaskazini"
+    ],
+    "emoji": "🧭⬆️"
+  },
+  "ufunguo": {
+    "word": "ufunguo",
+    "definition": "maelezo kwenye ramani yanayosaidia kuelewa maana ya alama zilizotumika.",
+    "variations": [
+      "ufunguo",
+      "funguo za ramani"
+    ],
+    "emoji": "🔑🗺️"
+  },
+  "ufunguo wa ramani": {
+    "word": "ufunguo wa ramani",
+    "definition": "Sehemu ya ramani inayofafanua maana ya alama zilizotumika.",
+    "variations": [
+      "ufunguo wa ramani"
+    ],
+    "emoji": "🗝️🗺️"
+  },
+  "ukubwa": {
+    "word": "ukubwa",
+    "definition": "Kipimo kinachoonesha kitu ni kikubwa au kidogo kiasi gani.",
+    "variations": [
+      "ukubwa",
+      "ukubwa wa karatasi"
+    ],
+    "emoji": "📏📐"
+  },
+  "umbali": {
+    "word": "umbali",
+    "definition": "urefu wa nafasi kati ya sehemu moja na nyingine.",
+    "variations": [
+      "umbali",
+      "maumbali"
+    ],
+    "emoji": "📏↔️"
+  },
+  "umbali halisi": {
+    "word": "umbali halisi",
+    "definition": "Umbali wa kweli wa sehemu moja hadi nyingine ardhini.",
+    "variations": [
+      "umbali halisi",
+      "umbali"
+    ],
+    "emoji": "📏📍"
+  },
+  "unyevu-anga": {
+    "word": "unyevu-anga",
+    "definition": "Kiasi cha mvuke wa maji kilichopo hewani.",
+    "variations": [
+      "unyevu-anga"
+    ],
+    "emoji": "💧☁️"
+  },
+  "uokoaji": {
+    "word": "uokoaji",
+    "definition": "Kitendo cha kusaidia na kuokoa watu au mali wakati wa dharura au hatari.",
+    "variations": [
+      "uokoaji",
+      "waokoaji",
+      "timu za uokoaji"
+    ],
+    "emoji": "🚑🆘"
+  },
+  "uoto": {
+    "word": "uoto",
+    "definition": "Mimea inayoota katika eneo fulani.",
+    "variations": [
+      "uoto"
+    ],
+    "emoji": "🌿🌱"
+  },
+  "upepo": {
+    "word": "upepo",
+    "definition": "Hewa inayotembea kutoka sehemu moja kwenda nyingine.",
+    "variations": [
+      "upepo"
+    ],
+    "emoji": "💨"
+  },
+  "upimaji": {
+    "word": "upimaji",
+    "definition": "kitendo cha kupima kitu ili kujua urefu, ukubwa au umbali wake.",
+    "variations": [
+      "upimaji",
+      "kupima",
+      "kupimwa"
+    ],
+    "emoji": "📏🧭"
+  },
+  "usafirishaji": {
+    "word": "usafirishaji",
+    "definition": "Kitendo cha kupeleka watu au mizigo kutoka sehemu moja hadi nyingine.",
+    "variations": [
+      "usafirishaji"
+    ],
+    "emoji": "🚚🚆"
+  },
+  "utafiti": {
+    "word": "utafiti",
+    "definition": "kazi ya kutafuta ukweli au habari mpya kuhusu jambo ili kulielewa vizuri zaidi.",
+    "variations": [
+      "utafiti",
+      "tafiti"
+    ],
+    "emoji": "🔍📘"
+  },
+  "utalii": {
+    "word": "utalii",
+    "definition": "Kutembelea maeneo ya kuvutia kwa kujifunza, kupumzika au kuona vivutio mbalimbali.",
+    "variations": [
+      "utalii",
+      "watalii"
+    ],
+    "emoji": "🧳🌍📸"
+  },
+  "utawala": {
+    "word": "utawala",
+    "definition": "namna ya kuongoza na kusimamia eneo au watu.",
+    "variations": [
+      "utawala",
+      "utawala bora",
+      "kiutawala"
+    ],
+    "emoji": "🏛️📋"
+  },
+  "uwanda wa juu": {
+    "word": "uwanda wa juu",
+    "definition": "eneo la juu lenye sehemu kubwa iliyo tambarare juu yake.",
+    "variations": [
+      "uwanda wa juu",
+      "nyanda za juu"
+    ],
+    "emoji": "⛰️🌄"
+  },
+  "uwiano": {
+    "word": "uwiano",
+    "definition": "Namna vitu viwili au zaidi vinavyolingana kwa kipimo au kiasi.",
+    "variations": [
+      "uwiano wa umbali",
+      "uwiano wa vipimo"
+    ],
+    "emoji": "⚖️📏"
+  },
+  "uzi": {
+    "word": "uzi",
+    "definition": "kamba nyembamba inayoweza kutumika kufuatisha mstari unaopinda.",
+    "variations": [
+      "uzi",
+      "nyuzi"
+    ],
+    "emoji": "🧵〰️"
+  },
+  "vilima": {
+    "word": "vilima",
+    "definition": "maeneo yaliyoinuka lakini si marefu sana kama milima.",
+    "variations": [
+      "kilima",
+      "vilima"
+    ],
+    "emoji": "🌄"
+  },
+  "vipengele": {
+    "word": "vipengele",
+    "definition": "Sehemu au mambo madogo yanayounda kitu kikubwa.",
+    "variations": [
+      "kipengele",
+      "vipengele"
+    ],
+    "emoji": "🧩📘"
+  },
+  "vipengele muhimu vya ramani": {
+    "word": "vipengele muhimu vya ramani",
+    "definition": "Sehemu za msingi zinazofanya ramani ieleweke na itumike vizuri.",
+    "variations": [
+      "kipengele muhimu cha ramani",
+      "vipengele muhimu vya ramani"
+    ],
+    "emoji": "🗺️✅"
+  },
+  "vipimo sahihi": {
+    "word": "vipimo sahihi",
+    "definition": "ukubwa au umbali unaopimwa kwa usahihi ili kitu kichorwe kwa namna ya kweli.",
+    "variations": [
+      "kipimo sahihi",
+      "vipimo sahihi"
+    ],
+    "emoji": "📏"
+  },
+  "wanajiolojia": {
+    "word": "wanajiolojia",
+    "definition": "Wataalamu wanaochunguza miamba, ardhi, na muundo wa dunia.",
+    "variations": [
+      "mwanajiolojia",
+      "wanajiolojia"
+    ],
+    "emoji": "🪨🌍"
+  },
+  "wavuti": {
+    "word": "wavuti",
+    "definition": "Mtandao wa taarifa unaopatikana kupitia intaneti.",
+    "variations": [
+      "wavuti"
+    ],
+    "emoji": "🌍🌐"
+  },
+  "wilaya": {
+    "word": "wilaya",
+    "definition": "eneo la kiutawala linaloundwa na kata au tarafa kadhaa.",
+    "variations": [
+      "wilaya",
+      "wilaya za"
+    ],
+    "emoji": "🏙️📍"
+  },
+  "ziwa": {
+    "word": "ziwa",
+    "definition": "maji mengi yaliyokusanyika ndani ya nchi na kuzungukwa na ardhi.",
+    "variations": [
+      "ziwa",
+      "maziwa"
+    ],
+    "emoji": "💧🏞️"
+  }
+}
