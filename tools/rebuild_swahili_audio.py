@@ -27,6 +27,111 @@ ROMAN = {"I": "moja", "II": "mbili", "III": "tatu", "IV": "nne", "V": "tano", "V
 CLASS_ORDINAL = {"I": "kwanza", "II": "pili", "III": "tatu", "IV": "nne", "V": "tano",
                  "VI": "sita", "VII": "saba", "VIII": "nane", "IX": "tisa", "X": "kumi"}
 
+# Some layouts keep the question number in its own text node. These IDs must be
+# announced as question labels instead of being read as bare cardinal numbers.
+QUESTION_NUMBER_IDS = {
+    "pg021_n0032": 1,
+    "pg022_n0005": 2, "pg022_n0015": 3, "pg022_n0025": 4,
+    "pg022_n0035": 5, "pg022_n0045": 6,
+    "pg023_n0008": 7, "pg023_n0020": 8,
+    "pg029_n0024": 1,
+    "pg036_n0009": 1, "pg036_n0020": 2, "pg036_n0031": 3, "pg036_n0042": 4,
+    "pg037_n0002": 5, "pg037_n0015": 6, "pg037_n0017": 7, "pg037_n0019": 8,
+    "pg041_n0007": 1,
+    "pg049_n0004": 1, "pg049_n0006": 2,
+    "pg050_n0024": 1, "pg050_n0026": 2,
+    "pg057_n0005": 1, "pg057_n0016": 2, "pg057_n0027": 3, "pg057_n0038": 4,
+    "pg081_n0006": 1, "pg081_n0009": 2, "pg081_n0012": 3,
+    "pg081_n0015": 4, "pg081_n0018": 5,
+    "pg087_n0005": 1,
+    "pg088_n0011": 3, "pg088_n0022": 4, "pg088_n0033": 5, "pg088_n0046": 6,
+    "pg090_n0006": 1, "pg090_n0017": 2, "pg090_n0028": 3,
+    "pg090_n0039": 4, "pg090_n0050": 5,
+    "pg092_n0003": 10, "pg092_n0013": 11, "pg092_n0023": 12,
+    "pg092_n0039": 13, "pg092_n0041": 14, "pg092_n0043": 15, "pg092_n0045": 16,
+    "pg093_n0002": 17, "pg093_n0007": 18,
+    "pg096_n0004": 19, "pg096_n0007": 20, "pg096_n0010": 21,
+    "pg096_n0013": 22, "pg096_n0016": 23, "pg096_n0019": 24, "pg096_n0022": 25,
+}
+
+# Pages whose numbered text nodes are exercise questions/prompts. Numbered
+# how-to instructions elsewhere in the book deliberately remain cardinal.
+QUESTION_TEXT_PAGES = {
+    8, 15, 16, 19, 21, 24, 27, 29, 30, 35, 42, 46, 48,
+    56, 58, 60, 62, 76, 82, 83, 86, 89, 91,
+}
+QUESTION_TEXT_EXCLUSIONS = {
+    "pg056_n0002",  # final step of the preceding map-printing procedure
+    "pg086_n0007", "pg086_n0008", "pg086_n0009", "pg086_n0010", "pg086_n0011",
+}
+
+TOC_SPEECH = {
+    "pg003_im006": (
+        "Yaliyomo ya kitabu. Shukurani, ukurasa wa namba ya Kirumi nne. "
+        "Utangulizi, ukurasa wa namba ya Kirumi sita. "
+        "Sura ya Kwanza, ukurasa wa kwanza. Dhana ya ramani, ukurasa wa kwanza. "
+        "Sura ya Pili, ukurasa namba 19. Pande Kuu za Dunia, ukurasa namba 19. "
+        "Sura ya Tatu, ukurasa namba 33. Uchoraji wa ramani sahili, ukurasa namba 33. "
+        "Sura ya Nne, ukurasa namba 53. Matumizi ya ramani, ukurasa namba 53. "
+        "Jaribio, ukurasa namba 84."
+    ),
+    "pg003_n0006": "Shukurani, ukurasa wa namba ya Kirumi nne.",
+    "pg003_n0009": "Utangulizi, ukurasa wa namba ya Kirumi sita.",
+    "pg003_n0012": "Sura ya Kwanza, ukurasa wa kwanza.",
+    "pg003_n0015": "Dhana ya ramani, ukurasa wa kwanza.",
+    "pg003_n0018": "Sura ya Pili, ukurasa namba 19.",
+    "pg003_n0021": "Pande Kuu za Dunia, ukurasa namba 19.",
+    "pg003_n0024": "Sura ya Tatu, ukurasa namba 33.",
+    "pg003_n0027": "Uchoraji wa ramani sahili, ukurasa namba 33.",
+    "pg003_n0030": "Sura ya Nne, ukurasa namba 53.",
+    "pg003_n0033": "Matumizi ya ramani, ukurasa namba 53.",
+    "pg003_n0036": "Jaribio, ukurasa namba 84.",
+    "pg015_n0038": (
+        "Swali la kwanza. Kwa nini ramani za thematiki zinaweza kutofautiana sana "
+        "hata kama zinawasilisha eneo moja?"
+    ),
+    "pg015_n0040": (
+        "Swali la pili. Iwapo kuna dharura ya moto katika mtaa wako, ni aina gani ya "
+        "ramani ungetumia kuwaelekeza wataalamu wa kuzima moto kufika eneo hilo?"
+    ),
+    "pg015_n0042": (
+        "Swali la tatu. Fuatilia maelezo yafuatayo, kisha pendekeza aina ya ramani "
+        "inayoweza kutumiwa na watu wafuatao."
+    ),
+    "pg015_n0038_easy_read": (
+        "Swali la kwanza. Kwa nini ramani za thematiki zinaweza kutofautiana sana, "
+        "hata kama zinawasilisha eneo moja?"
+    ),
+    "pg015_n0040_easy_read": (
+        "Swali la pili. Ikiwa kuna dharura ya moto katika mtaa wako, ni aina gani ya "
+        "ramani ungetumia kuwaelekeza wataalamu wa kuzima moto wafike eneo hilo?"
+    ),
+    "pg015_n0042_easy_read": (
+        "Swali la tatu. Chunguza jedwali lifuatalo. Kisha pendekeza aina ya ramani "
+        "ambayo watu wafuatao wanaweza kutumia."
+    ),
+}
+
+TABLE_23_SPEECH = {
+    "pg023_n0032": "Namba moja ya Kirumi, Ramani za topografia.",
+    "pg023_n0039": "Namba mbili ya Kirumi, Fremu.",
+    "pg023_n0046": "Namba tatu ya Kirumi, Vipengele muhimu katika ramani.",
+    "pg023_n0058": "Namba nne ya Kirumi, Skeli.",
+    "pg023_n0068": "Namba tano ya Kirumi, Sehemu ambapo ramani inaweza kuchorwa.",
+    "pg023_n0036": "Herufi a, juu ya karatasi, ardhi, kitambaa na kompyuta.",
+    "pg023_n0043": "Herufi bee, huwakilisha maumbo ya uso wa dunia.",
+    "pg023_n0053": "Herufi see, uhusiano wa umbali uliowasilishwa katika ramani na umbali halisi uliopo katika ardhi.",
+    "pg023_n0063": "Herufi dee, skeli, fremu, uelekeo wa Kaskazini, kichwa cha ramani, ufunguo, chanzo na mistari ya gridi.",
+    "pg023_n0075": "Herufi e, kuwasilisha mpaka wa ramani husika.",
+    "pg023_n0080": "Herufi efu, isomeke kwa urahisi kwa watumiaji wa ramani husika.",
+}
+TOC_SPEECH.update(TABLE_23_SPEECH)
+TOC_SPEECH.update({f"{key}_easy_read": value for key, value in TABLE_23_SPEECH.items()})
+
+# Easy-read mode uses the same table-of-contents page references.
+TOC_SPEECH.update({f"{key}_easy_read": value for key, value in list(TOC_SPEECH.items())
+                   if key.startswith("pg003_n")})
+
 
 def number_sw(n: int) -> str:
     if n < 10:
@@ -46,8 +151,35 @@ def number_sw(n: int) -> str:
     return " ".join(ONES[int(d)] for d in str(n))
 
 
-def speech_text(text: str) -> str:
+def question_ordinal(n: int) -> str:
+    if n == 1:
+        return "kwanza"
+    if n == 2:
+        return "pili"
+    return number_sw(n)
+
+
+def question_number(key: str, text: str):
+    base_key = key.removesuffix("_easy_read")
+    if base_key in QUESTION_NUMBER_IDS:
+        return QUESTION_NUMBER_IDS[base_key]
+    page_match = re.match(r"pg(\d{3})_", base_key)
+    number_match = re.match(r"^(\d{1,2})\.\s+", text)
+    if (page_match and number_match and int(page_match.group(1)) in QUESTION_TEXT_PAGES
+            and base_key not in QUESTION_TEXT_EXCLUSIONS):
+        return int(number_match.group(1))
+    return None
+
+
+def speech_text(text: str, key: str = "") -> str:
     text = text.replace("FOR ONLINE READING ONLY", "")
+    q_number = question_number(key, text) if key else None
+    if q_number is not None:
+        label = f"Swali la {question_ordinal(q_number)}."
+        if re.fullmatch(r"\s*\d{1,2}\.?\s*", text):
+            text = label
+        else:
+            text = re.sub(r"^\d{1,2}\.\s*", f"{label} ", text)
     # Class levels are ordinal in Swahili (Darasa la pili, not Darasa la mbili).
     text = re.sub(
         r"\bDarasa la (VIII|VII|VI|IV|IX|III|II|V|X|I)\s*[-–]\s*(VIII|VII|VI|IV|IX|III|II|V|X|I)\b",
@@ -81,7 +213,7 @@ def speech_text(text: str) -> str:
 
 
 async def synthesize(key: str, text: str, output: Path, semaphore: asyncio.Semaphore):
-    spoken = speech_text(text)
+    spoken = speech_text(TOC_SPEECH.get(key, text), key)
     if not spoken:
         return "skip"
     async with semaphore:
@@ -109,6 +241,8 @@ async def main():
     parser.add_argument("--concurrency", type=int, default=12)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--match", help="Only synthesize text matching this regular expression")
+    parser.add_argument("--questions-only", action="store_true",
+                        help="Only rebuild numbered question labels/prompts")
     args = parser.parse_args()
 
     texts = json.loads((ROOT / "content/i18n/sw/texts.json").read_text(encoding="utf-8"))
@@ -120,6 +254,8 @@ async def main():
             continue
         text = texts.get(key, "")
         if not text.strip():
+            continue
+        if args.questions_only and question_number(key, text) is None:
             continue
         if args.match and not re.search(args.match, text, flags=re.IGNORECASE):
             continue

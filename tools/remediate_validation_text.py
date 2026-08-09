@@ -150,4 +150,47 @@ for language in ("sw", "sw-TZ"):
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         changed_json += 1
 
-print(f"updated {changed_html} HTML files and {changed_json} text catalogs")
+# Removed print-only strings must not survive as playable orphan recordings.
+# Keep their stable text IDs as empty placeholders, but drop both normal and
+# easy-read audio mappings and delete an audio file only when no retained
+# mapping still references it.
+removed_audio_mappings = 0
+removed_audio_files = 0
+for language in ("sw", "sw-TZ"):
+    text_path = ROOT / "content" / "i18n" / language / "texts.json"
+    audio_path = ROOT / "content" / "i18n" / language / "audios.json"
+    audio_dir = audio_path.parent / "audio"
+    texts = json.loads(text_path.read_text(encoding="utf-8"))
+    audios = json.loads(audio_path.read_text(encoding="utf-8"))
+    removed_filenames = []
+    for key, value in texts.items():
+        if value.strip():
+            continue
+        audio_keys = [key]
+        easy_read_key = f"{key}_easy_read"
+        if not texts.get(easy_read_key, "").strip():
+            audio_keys.append(easy_read_key)
+        for audio_key in audio_keys:
+            filename = audios.pop(audio_key, None)
+            if filename:
+                removed_filenames.append(filename)
+                removed_audio_mappings += 1
+    retained_filenames = set(audios.values())
+    for filename in set(removed_filenames) - retained_filenames:
+        file_path = audio_dir / filename
+        if file_path.is_file():
+            file_path.unlink()
+            removed_audio_files += 1
+    # Preserve independently authored easy-read text even when its base ID is
+    # an empty print-artifact placeholder.
+    for key, value in texts.items():
+        default_filename = f"{key}.mp3"
+        if value.strip() and key not in audios and (audio_dir / default_filename).is_file():
+            audios[key] = default_filename
+    audio_path.write_text(json.dumps(audios, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+print(
+    f"updated {changed_html} HTML files and {changed_json} text catalogs; "
+    f"removed {removed_audio_mappings} orphan audio mappings and "
+    f"{removed_audio_files} orphan audio files"
+)

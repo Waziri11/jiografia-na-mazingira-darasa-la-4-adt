@@ -9,26 +9,44 @@
   <link href="./content/tailwind_output.css" rel="stylesheet">
   <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
   <link href="./assets/fonts.css" rel="stylesheet">
+  <style>
+    .source-page { position: relative; min-height: 70rem; overflow: hidden; background: #fff; color: #202020; }
+    .source-page, .source-page * { font-family: Arial, sans-serif !important; }
+    .source-page::before { position: absolute; inset: 0 auto 0 0; width: 1.1rem; content: ""; background: linear-gradient(90deg, #a9d1fa 0%, #e8f4ff 45%, #fff 100%); }
+    .source-footer { position: absolute; right: 0; bottom: 0; left: 0; height: 5.5rem; background: #4f91d2; clip-path: polygon(0 10%, 50% 78%, 100% 16%, 100% 100%, 0 100%); }
+    .source-page-number { position: absolute; bottom: 0; left: 50%; z-index: 1; min-width: 4.5rem; padding: 1rem 1.2rem .75rem; border-radius: 1.4rem 1.4rem 0 0; background: #087dcc; color: #fff; font-size: 1.75rem; font-weight: 700; text-align: center; transform: translateX(-50%); }
+    .rights-notice { position: absolute; right: 5rem; bottom: 9rem; left: 5rem; z-index: 1; font-size: 1.5rem; line-height: 1.625; }
+    @media (max-width: 640px) { .rights-notice { right: 2.5rem; bottom: 8rem; left: 2.5rem; font-size: 1.125rem; } }
+  </style>
 </head>
-<body class="min-h-screen flex items-center justify-center bg-slate-50">
+<body class="min-h-screen flex items-center justify-center bg-slate-100">
   <main class="w-full">
-    <div id="content" class="mx-auto max-w-5xl px-6 py-10 opacity-0 max-sm:px-4">
-      <section role="article" data-section-type="text_only" data-section-id="pg002_sec001" class="rounded-3xl border border-slate-200 bg-white p-10 text-left shadow-sm max-sm:p-6">
-        <h1 data-id="pg002_n0001" class="text-4xl font-bold text-blue-900 max-sm:text-3xl">Hakimiliki</h1>
-        <div class="mt-8 space-y-5 text-lg leading-relaxed text-slate-800 max-sm:text-base">
+    <div id="content" class="mx-auto max-w-4xl px-4 py-8 opacity-0 max-sm:px-0 max-sm:py-0">
+      <section role="article" aria-label="Ukurasa wa hakimiliki" data-section-type="text_only" data-section-id="pg002_sec001" class="source-page border border-slate-200 shadow-md max-sm:border-0">
+        <div class="relative z-10 px-20 pb-36 pt-20 text-left text-2xl leading-relaxed max-sm:px-10 max-sm:pt-12 max-sm:text-lg">
+          <div class="space-y-1">
           <p data-id="pg002_n0002">© Taasisi ya Elimu Tanzania 2024</p>
           <p data-id="pg002_n0003">Toleo la kwanza 2024</p>
-          <p><strong data-id="pg002_n0004">ISBN: 978-9912-753-83-9</strong></p>
-          <address data-id="pg002_n0005" class="not-italic">Taasisi ya Elimu Tanzania, Eneo la Mikocheni, 132 Barabara ya Ali Hassan Mwinyi, S.L.P. 35094, 14112 Dar es Salaam.</address>
-          <p data-id="pg002_n0006">Simu: +255 735 041 170 / +255 735 041 168. Baruapepe: director.general@tie.go.tz. Tovuti: www.tie.go.tz.</p>
-          <p data-id="pg002_n0007" class="rounded-2xl bg-blue-50 p-5">Haki zote zimehifadhiwa. Hairuhusiwi kunakili, kurudufu, kuchapisha, kutafsiri, wala kukitoa kitabu hiki kwa namna yoyote ile bila idhini ya maandishi kutoka Taasisi ya Elimu Tanzania.</p>
+          </div>
+          <p class="mt-20 font-medium max-sm:mt-12" data-id="pg002_n0004">ISBN: 978-9912-753-83-9</p>
+          <address data-id="pg002_n0005" class="mt-12 whitespace-pre-line not-italic">Taasisi ya Elimu Tanzania
+Eneo la Mikocheni
+132 Barabara ya Ali Hassan Mwinyi
+S.L.P. 35094
+14112 Dar es Salaam</address>
+          <p data-id="pg002_n0006" class="mt-10 whitespace-pre-wrap">Simu:              +255735041170/735041168
+Baruapepe:     director.general@tie.go.tz
+Tovuti:             www.tie.go.tz</p>
         </div>
+        <p data-id="pg002_n0007" class="rights-notice">Haki zote zimehifadhiwa. Hairuhusiwi kunakili, kurudufu, kuchapisha, kutafsiri, wala kukitoa kitabu hiki kwa namna yoyote ile bila idhini ya maandishi kutoka Taasisi ya Elimu Tanzania.</p>
+        <div class="source-footer" aria-hidden="true"></div>
+        <div class="source-page-number" data-id="pg002_n0008">ii</div>
       </section>
     </div>
   </main>
   <div class="relative z-50" id="interface-container"></div>
   <div class="relative z-50" id="nav-container"></div>
-  <script src="./assets/offline-preloader.js?v=702a2df7b534" type="text/javascript"></script>
+  <script src="./assets/offline-preloader.js?v=7ec8d4eac902" type="text/javascript"></script>
   <script src="./assets/scorm.js"></script>
   <script src="./assets/base.bundle.local.js"></script>
 </body>
