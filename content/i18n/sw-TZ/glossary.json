@@ -10,7 +10,7 @@
   },
   "alama": {
     "word": "alama",
-    "definition": "ishara au nukta inayowekwa kuonyesha sehemu fulani.",
+    "definition": "ishara au nukta inayowekwa kuwasilisha sehemu fulani.",
     "variations": [
       "alama",
       "alama nyekundu",
@@ -124,7 +124,7 @@
   },
   "dira": {
     "word": "dira",
-    "definition": "Kifaa kinachosaidia kuonesha uelekeo, hasa upande wa Kaskazini.",
+    "definition": "Kifaa kinachosaidia kuwasilisha uelekeo, hasa upande wa Kaskazini.",
     "variations": [
       "madira"
     ],
@@ -149,7 +149,7 @@
   },
   "GIS": {
     "word": "GIS",
-    "definition": "Mfumo wa taarifa za kijiografia unaotumika kukusanya, kuhifadhi na kuonyesha taarifa za maeneo kwenye ramani za kidijitali.",
+    "definition": "Mfumo wa taarifa za kijiografia unaotumika kukusanya, kuhifadhi na kuwasilisha taarifa za maeneo kwenye ramani za kidijitali.",
     "variations": [
       "GIS",
       "mfumo wa taarifa za kijiografia"
@@ -235,7 +235,7 @@
   },
   "ishara": {
     "word": "ishara",
-    "definition": "kitu kinachotumika kuonesha maana fulani, hasa kwenye ramani.",
+    "definition": "kitu kinachotumika kuwasilisha maana fulani, hasa kwenye ramani.",
     "variations": [
       "ishara",
       "ishara za ramani"
@@ -269,7 +269,7 @@
   },
   "Kaskazini": {
     "word": "Kaskazini",
-    "definition": "Moja ya pande kuu za dunia. Dira huonesha upande huu.",
+    "definition": "Moja ya pande kuu za dunia. Dira huwasilisha upande huu.",
     "variations": [
       "upande wa Kaskazini"
     ],
@@ -320,7 +320,7 @@
   },
   "kichwa cha ramani": {
     "word": "kichwa cha ramani",
-    "definition": "Jina la ramani linaloonesha ramani hiyo inahusu nini.",
+    "definition": "Jina la ramani linalowasilisha ramani hiyo inahusu nini.",
     "variations": [
       "kichwa cha ramani",
       "vichwa vya ramani"
@@ -410,7 +410,7 @@
   },
   "kishale": {
     "word": "kishale",
-    "definition": "alama au mshale mdogo kwenye skrini unaoonesha unachochagua.",
+    "definition": "alama au mshale mdogo kwenye skrini unawasilisha unachochagua.",
     "variations": [
       "kishale",
       "vishale"
@@ -474,7 +474,7 @@
   },
   "kontua": {
     "word": "kontua",
-    "definition": "mistari kwenye ramani inayoonesha kuinuka au kushuka kwa ardhi.",
+    "definition": "mistari kwenye ramani inayowasilisha kuinuka au kushuka kwa ardhi.",
     "variations": [
       "kontua",
       "mistari ya kontua"
@@ -649,7 +649,7 @@
   },
   "mchoro": {
     "word": "mchoro",
-    "definition": "picha au taswira ya kitu au eneo iliyochorwa ili kukionyesha.",
+    "definition": "picha au taswira ya kitu au eneo iliyochorwa ili kukiwasilisha.",
     "variations": [
       "mchoro",
       "michoro"
@@ -739,7 +739,7 @@
   },
   "mistari ya kontua": {
     "word": "mistari ya kontua",
-    "definition": "Mistari kwenye ramani inayoonyesha sehemu zenye kimo sawa kutoka usawa wa bahari.",
+    "definition": "Mistari kwenye ramani inayowasilisha sehemu zenye kimo sawa kutoka usawa wa bahari.",
     "variations": [
       "mistari ya kontua",
       "kontua",
@@ -937,7 +937,7 @@
   },
   "mwonekano": {
     "word": "mwonekano",
-    "definition": "Namna kitu kinavyoonekana kwa macho, kama sura au mpangilio wake.",
+    "definition": "Namna kitu kinavyowasilishwa kwa macho, kama sura au mpangilio wake.",
     "variations": [
       "mwonekano",
       "miwonekano"
@@ -972,7 +972,7 @@
   },
   "picha": {
     "word": "picha",
-    "definition": "Taswira inayoonesha umbo la kitu au eneo fulani.",
+    "definition": "Taswira inayowasilisha umbo la kitu au eneo fulani.",
     "variations": [
       "picha",
       "picha za ramani"
@@ -1000,7 +1000,7 @@
   },
   "ramani": {
     "word": "ramani",
-    "definition": "Mchoro unaoonesha mahali vitu vilipo katika eneo fulani kwa kutumia alama.",
+    "definition": "Mchoro unawasilisha mahali vitu vilipo katika eneo fulani kwa kutumia alama.",
     "variations": [
       "ramani sahili",
       "ramani za maeneo"
@@ -1009,7 +1009,7 @@
   },
   "ramani za barabara na reli": {
     "word": "ramani za barabara na reli",
-    "definition": "Ramani zinazoonesha njia za usafiri wa barabara na treni pamoja na vitu muhimu njiani.",
+    "definition": "Ramani zinazowasilisha njia za usafiri wa barabara na treni pamoja na vitu muhimu njiani.",
     "variations": [
       "ramani ya barabara na reli",
       "ramani za barabara na reli"
@@ -1018,7 +1018,7 @@
   },
   "ramani za jumla": {
     "word": "ramani za jumla",
-    "definition": "Ramani zinazoonesha mambo mengi ya eneo kwa pamoja, si jambo moja tu.",
+    "definition": "Ramani zinazowasilisha mambo mengi ya eneo kwa pamoja, si jambo moja tu.",
     "variations": [
       "ramani ya jumla",
       "ramani za jumla"
@@ -1027,7 +1027,7 @@
   },
   "ramani za kisiasa": {
     "word": "ramani za kisiasa",
-    "definition": "Ramani zinazoonesha mipaka ya nchi, mikoa, wilaya na maeneo ya utawala.",
+    "definition": "Ramani zinazowasilisha mipaka ya nchi, mikoa, wilaya na maeneo ya utawala.",
     "variations": [
       "ramani ya kisiasa",
       "ramani za kisiasa"
@@ -1036,7 +1036,7 @@
   },
   "ramani za mipango miji": {
     "word": "ramani za mipango miji",
-    "definition": "Ramani zinazoonesha mpangilio wa miji au vijiji, kama makazi, shule, barabara na huduma nyingine.",
+    "definition": "Ramani zinazowasilisha mpangilio wa miji au vijiji, kama makazi, shule, barabara na huduma nyingine.",
     "variations": [
       "ramani ya mipango miji",
       "ramani za mipango miji"
@@ -1045,7 +1045,7 @@
   },
   "ramani za thematiki": {
     "word": "ramani za thematiki",
-    "definition": "Ramani zinazoonesha jambo moja maalumu katika eneo, kama mvua, kilimo au watu.",
+    "definition": "Ramani zinazowasilisha jambo moja maalumu katika eneo, kama mvua, kilimo au watu.",
     "variations": [
       "ramani ya thematiki",
       "ramani za thematiki"
@@ -1143,7 +1143,7 @@
   },
   "skeli": {
     "word": "skeli",
-    "definition": "kipimo kinachoonyesha uhusiano kati ya umbali wa kwenye ramani na umbali halisi.",
+    "definition": "kipimo kinachowasilisha uhusiano kati ya umbali wa kwenye ramani na umbali halisi.",
     "variations": [
       "skeli",
       "skeli ya mstari",
@@ -1174,7 +1174,7 @@
   },
   "skeli ya uwiano": {
     "word": "skeli ya uwiano",
-    "definition": "aina ya skeli inayoandikwa kwa namna ya namba mbili, kwa mfano 1:50000, kuonyesha uwiano wa ramani na ardhi halisi.",
+    "definition": "aina ya skeli inayoandikwa kwa namna ya namba mbili, kwa mfano 1:50000, kuwasilisha uwiano wa ramani na ardhi halisi.",
     "variations": [
       "skeli ya uwiano",
       "uwiano",
@@ -1283,7 +1283,7 @@
   },
   "uchoraji wa ramani": {
     "word": "uchoraji wa ramani",
-    "definition": "Kazi ya kuchora ramani ili kuonesha vitu na maeneo kwa mpangilio unaoeleweka.",
+    "definition": "Kazi ya kuchora ramani ili kuwasilisha vitu na maeneo kwa mpangilio unaoeleweka.",
     "variations": [
       "kuchora ramani",
       "uchoraji ramani"
@@ -1327,7 +1327,7 @@
   },
   "ukubwa": {
     "word": "ukubwa",
-    "definition": "Kipimo kinachoonesha kitu ni kikubwa au kidogo kiasi gani.",
+    "definition": "Kipimo kinachowasilisha kitu ni kikubwa au kidogo kiasi gani.",
     "variations": [
       "ukubwa",
       "ukubwa wa karatasi"

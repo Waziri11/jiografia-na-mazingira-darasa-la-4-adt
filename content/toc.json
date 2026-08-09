@@ -7,10 +7,31 @@
     "level": 1
   },
   {
+    "section_id": "pg002_sec001",
+    "href": "pg002_sec001.html",
+    "title": "Hakimiliki",
+    "chapter_id": "pg002_n0001",
+    "level": 1
+  },
+  {
     "section_id": "pg003_sec001",
     "href": "pg003_sec001.html",
     "title": "Yaliyomo",
     "chapter_id": "pg003_n0002",
+    "level": 1
+  },
+  {
+    "section_id": "pg004_sec001",
+    "href": "pg004_sec001.html",
+    "title": "Shukurani",
+    "chapter_id": "pg004_n0001",
+    "level": 1
+  },
+  {
+    "section_id": "pg005_sec001",
+    "href": "pg005_sec001.html",
+    "title": "Shukurani na uthibitisho",
+    "chapter_id": "pg005_n0001",
     "level": 1
   },
   {
@@ -70,8 +91,8 @@
     "level": 3
   },
   {
-    "section_id": "pg012_sec002",
-    "href": "pg012_sec002.html",
+    "section_id": "pg012_sec001",
+    "href": "pg012_sec001.html",
     "title": "Ramani za thematiki",
     "chapter_id": "pg012_n0008",
     "level": 2
@@ -154,13 +175,6 @@
     "level": 2
   },
   {
-    "section_id": "pg023_sec002",
-    "href": "pg023_sec002.html",
-    "title": "Sehemu B:",
-    "chapter_id": "pg023_n0018",
-    "level": 3
-  },
-  {
     "section_id": "pg024_sec001",
     "href": "pg024_sec001.html",
     "title": "C:",
@@ -189,22 +203,8 @@
     "level": 2
   },
   {
-    "section_id": "pg025_sec003",
-    "href": "pg025_sec003.html",
-    "title": "Fikiri",
-    "chapter_id": "pg025_n0014",
-    "level": 2
-  },
-  {
-    "section_id": "pg025_sec004",
-    "href": "pg025_sec004.html",
-    "title": "Maana ya Pande Kuu za Dunia",
-    "chapter_id": "pg025_n0017",
-    "level": 2
-  },
-  {
-    "section_id": "pg026_sec002",
-    "href": "pg026_sec002.html",
+    "section_id": "pg026_sec001",
+    "href": "pg026_sec001.html",
     "title": "Kazi ya kufanya namba 1",
     "chapter_id": "pg026_n0005",
     "level": 3
@@ -273,18 +273,11 @@
     "level": 3
   },
   {
-    "section_id": "pg035_sec002",
-    "href": "pg035_sec002.html",
+    "section_id": "pg035_sec001",
+    "href": "pg035_sec001.html",
     "title": "Zoezi la tatu",
     "chapter_id": "pg035_n0018",
     "level": 3
-  },
-  {
-    "section_id": "pg035_sec003",
-    "href": "pg035_sec003.html",
-    "title": "Umuhimu wa Pande Kuu za Dunia",
-    "chapter_id": "pg035_n0025",
-    "level": 2
   },
   {
     "section_id": "pg036_sec001",
@@ -320,27 +313,6 @@
     "title": "Sura ya Tatu",
     "chapter_id": "pg039_n0002",
     "level": 1
-  },
-  {
-    "section_id": "pg039_sec002",
-    "href": "pg039_sec002.html",
-    "title": "Utangulizi",
-    "chapter_id": "pg039_n0005",
-    "level": 2
-  },
-  {
-    "section_id": "pg039_sec003",
-    "href": "pg039_sec003.html",
-    "title": "Fikiri",
-    "chapter_id": "pg039_n0012",
-    "level": 2
-  },
-  {
-    "section_id": "pg039_sec004",
-    "href": "pg039_sec004.html",
-    "title": "Dhana ya uchoraji wa ramani",
-    "chapter_id": "pg039_n0015",
-    "level": 2
   },
   {
     "section_id": "pg040_sec001",
@@ -641,20 +613,6 @@
     "href": "pg086_sec001.html",
     "title": "Maswali",
     "chapter_id": "pg086_n0002",
-    "level": 3
-  },
-  {
-    "section_id": "pg087_sec002",
-    "href": "pg087_sec002.html",
-    "title": "Zoezi la marudio",
-    "chapter_id": "pg087_n0002",
-    "level": 2
-  },
-  {
-    "section_id": "pg088_sec002",
-    "href": "pg088_sec002.html",
-    "title": "B. Maswali ya kuoanisha",
-    "chapter_id": "pg088_n0044",
     "level": 3
   },
   {
