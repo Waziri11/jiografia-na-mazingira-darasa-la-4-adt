@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 968 120" role="img" aria-labelledby="title desc">
+  <title id="title">Skeli ya mstari na alama kwenye kilometa mbili</title>
+  <desc id="desc">Skeli inaanzia meta elfu moja upande wa kushoto na kuendelea kutoka sifuri hadi kilometa tatu. Alama ya tatu iko kwenye kilometa mbili.</desc>
+  <rect width="968" height="120" fill="#fff"/>
+  <g fill="#111" font-family="Georgia, 'Times New Roman', serif" font-size="38">
+    <text x="0" y="78">Meta</text>
+    <text x="720" y="78">3 Kilometa</text>
+    <text x="284" y="78" text-anchor="middle">0</text>
+    <text x="462" y="78" text-anchor="middle">1</text>
+    <text x="620" y="78" text-anchor="middle">2</text>
+    <text transform="translate(137 70) rotate(-90)" text-anchor="middle">1000</text>
+    <text transform="translate(224 70) rotate(-90)" text-anchor="middle">500</text>
+  </g>
+  <g stroke="#111" stroke-width="3">
+    <rect x="106" y="82" width="688" height="34" fill="#fff"/>
+    <path d="M106 82h45v17h-45zm89 0h44v17h-44zm89 0h178v17H284zm336 0h174v17H620z" fill="#8a8a8a"/>
+    <path d="M151 99h44v17h-44zm88 0h45v17h-45zm45 0h178v17H284zm178 0h158v17H462zm158 0h174v17H620z" fill="#777"/>
+    <path d="M151 82v34M195 82v34M239 82v34M284 82v34M462 82v34M620 82v34" fill="none"/>
+  </g>
+  <rect x="596" y="34" width="48" height="84" fill="none" stroke="#4e9cf0" stroke-width="3"/>
+  <line x1="620" y1="82" x2="620" y2="116" stroke="#f22" stroke-width="2"/>
+  <text x="620" y="27" fill="#e11" font-family="Arial, sans-serif" font-size="34" text-anchor="middle">(3)</text>
+</svg>

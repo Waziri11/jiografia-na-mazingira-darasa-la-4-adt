@@ -199,6 +199,16 @@ STEPS_32_SPEECH = {
 TOC_SPEECH.update(STEPS_32_SPEECH)
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in STEPS_32_SPEECH.items()})
 
+# These five instructions form one Roman-numbered list across pages 68–69.
+# Prefix the narration with an explicit ordinal so it sounds like a list too.
+ROMAN_STEP_ORDINALS = {
+    "pg068_n0022": "kwanza",
+    "pg069_n0002": "pili",
+    "pg069_n0003": "tatu",
+    "pg069_n0005": "nne",
+    "pg069_n0006": "tano",
+}
+
 # Easy-read mode uses the same table-of-contents page references.
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in list(TOC_SPEECH.items())
                    if key.startswith("pg003_n")})
@@ -253,6 +263,9 @@ def speech_text(text: str, key: str = "") -> str:
             text = label
         else:
             text = re.sub(r"^\d{1,2}\.\s*", f"{label} ", text)
+    step_ordinal = ROMAN_STEP_ORDINALS.get(key.removesuffix("_easy_read")) if key else None
+    if step_ordinal:
+        text = f"Hatua ya {step_ordinal}. {text}"
     # Class levels are ordinal in Swahili (Darasa la pili, not Darasa la mbili).
     text = re.sub(
         r"\bDarasa la (VIII|VII|VI|IV|IX|III|II|V|X|I)\s*[-–]\s*(VIII|VII|VI|IV|IX|III|II|V|X|I)\b",

@@ -564,6 +564,11 @@
     "page_number": 80
   },
   {
+    "section_id": "pg086_sec002",
+    "href": "pg086_sec002.html",
+    "page_number": 80
+  },
+  {
     "section_id": "pg087_sec001",
     "href": "pg087_sec001.html",
     "page_number": 81
@@ -571,6 +576,11 @@
   {
     "section_id": "pg088_sec001",
     "href": "pg088_sec001.html",
+    "page_number": 82
+  },
+  {
+    "section_id": "pg088_sec002",
+    "href": "pg088_sec002.html",
     "page_number": 82
   },
   {
@@ -612,11 +622,6 @@
     "section_id": "pg093_sec002",
     "href": "pg093_sec002.html",
     "page_number": 87
-  },
-  {
-    "section_id": "pg094_sec001",
-    "href": "pg094_sec001.html",
-    "page_number": 88
   },
   {
     "section_id": "pg095_sec001",
