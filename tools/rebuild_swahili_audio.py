@@ -118,7 +118,7 @@ QUESTION_TEXT_EXCLUSIONS = {
 
 TOC_SPEECH = {
     "pg003_im006": (
-        "Yaliyomo ya kitabu. Shukurani, ukurasa wa namba ya Kirumi nne. "
+        "Shukurani, ukurasa wa namba ya Kirumi nne. "
         "Utangulizi, ukurasa wa namba ya Kirumi sita. "
         "Sura ya Kwanza, ukurasa wa kwanza. Dhana ya ramani, ukurasa wa kwanza. "
         "Sura ya Pili, ukurasa namba 19. Pande Kuu za Dunia, ukurasa namba 19. "
