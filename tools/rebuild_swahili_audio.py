@@ -27,6 +27,57 @@ ROMAN = {"I": "moja", "II": "mbili", "III": "tatu", "IV": "nne", "V": "tano", "V
 CLASS_ORDINAL = {"I": "kwanza", "II": "pili", "III": "tatu", "IV": "nne", "V": "tano",
                  "VI": "sita", "VII": "saba", "VIII": "nane", "IX": "tisa", "X": "kumi"}
 
+# Keep the visible text in Swahili, but guide the Tanzanian Swahili voice to
+# pronounce embedded English product and interface terms naturally. Longer
+# phrases must precede their component words.
+ENGLISH_SPEECH = (
+    (r"\bGoogle My Maps\b", "Guu gol Mai Maps"),
+    (r"\bGoogle Maps\b", "Guu gol Maps"),
+    (r"\bOpenstreet Map\b", "Oupen Street Map"),
+    (r"\bMy Maps\b", "Mai Maps"),
+    (r"\bGoogle\b", "Guu gol"),
+    (r"\bCreate a new map\b", "Kri eit a nyuu map"),
+    (r"\bcreate new maps\b", "Kri eit nyuu maps"),
+    (r"\bMeasure distances and areas\b", "Mezha distansiz and erias"),
+    (r"\bAdd line or shapes\b", "Ad lain or sheips"),
+    (r"\bNot owned\b", "Not ound"),
+    (r"\bAdd line or shape\b", "Ad lain or sheip"),
+    (r"\bAdd driving route\b", "Ad draiving ruut"),
+    (r"\bAdd biking route\b", "Ad baiking ruut"),
+    (r"\bAdd walking route\b", "Ad woking ruut"),
+    (r"\bRename this layer\b", "Ri neim this leia"),
+    (r"\bEdit layer name\b", "Edit leia neim"),
+    (r"\bPolygon transparency\b", "Poligon transperensi"),
+    (r"\bBorder width\b", "Boda width"),
+    (r"\bUntitled map\b", "An taitold map"),
+    (r"\bMap title\b", "Map taitol"),
+    (r"\bPrint map\b", "Print map"),
+    (r"\bAdd layer\b", "Ad leia"),
+    (r"\bDraw line\b", "Dro lain"),
+    (r"\bGame Reserve\b", "Geim Rizav"),
+    (r"\bPolygon\s*1\b", "Poligon wan"),
+    (r"\bOwned\b", "Ound"),
+    (r"\bShared\b", "Shead"),
+    (r"\bRecent\b", "Riisent"),
+    (r"\bPreview\b", "Privyuu"),
+    (r"\bShare\b", "Shea"),
+    (r"\bLandscape\b", "Landskeip"),
+    (r"\bPortrait\b", "Potret"),
+    (r"\bImport\b", "Import"),
+    (r"\bCancel\b", "Kansel"),
+    (r"\bStyle\b", "Stail"),
+    (r"\bSave\b", "Seiv"),
+    (r"\bPrint\b", "Print"),
+    (r"\bImage\b", "Imij"),
+    (r"\bAll\b", "Ol"),
+    (r"\bFDC\b", "Ef Dee See"),
+    (r"\bPDF\b", "Pee Dee Ef"),
+    (r"\bsearch\b", "Sach"),
+    (r"\bAutoCAD\b", "Oto Kad"),
+    (r"\bArcGIS\b", "Ark Jee Ai Es"),
+    (r"\bQGIS\b", "Kyu Jee Ai Es"),
+)
+
 # Some layouts keep the question number in its own text node. These IDs must be
 # announced as question labels instead of being read as bare cardinal numbers.
 QUESTION_NUMBER_IDS = {
@@ -58,7 +109,7 @@ QUESTION_NUMBER_IDS = {
 # how-to instructions elsewhere in the book deliberately remain cardinal.
 QUESTION_TEXT_PAGES = {
     8, 15, 16, 19, 21, 24, 27, 29, 30, 35, 42, 46, 48,
-    56, 58, 60, 62, 76, 82, 83, 86, 89, 91,
+    56, 58, 60, 62, 63, 76, 82, 83, 86, 89, 91,
 }
 QUESTION_TEXT_EXCLUSIONS = {
     "pg056_n0002",  # final step of the preceding map-printing procedure
@@ -124,9 +175,29 @@ TABLE_23_SPEECH = {
     "pg023_n0063": "Herufi dee, skeli, fremu, uelekeo wa Kaskazini, kichwa cha ramani, ufunguo, chanzo na mistari ya gridi.",
     "pg023_n0075": "Herufi e, kuwasilisha mpaka wa ramani husika.",
     "pg023_n0080": "Herufi efu, isomeke kwa urahisi kwa watumiaji wa ramani husika.",
+    "pg024_n0006": "Herufi gee, hufafanua alama na ishara zilizotumika katika ramani.",
 }
+TOC_SPEECH.update({
+    "pg025_n0002": "Sura ya Pili. Pande Kuu za Dunia.",
+    "pg025_n0002_easy_read": "Sura ya Pili. Pande Kuu za Dunia.",
+    "pg029_n0016": "Kazi ya kwanza. Nenda nje ya darasa wakati wa asubuhi, na simama eneo la katikati ya shule yako.",
+    "pg029_n0018": "Kazi ya pili. Baini upande wa jua linakochomoza, kisha bainisha Pande Kuu za Dunia na utaje vitu vinavyopatikana katika upande husika.",
+    "pg029_n0020": "Kazi ya tatu. Tengeneza kifani cha Pande Kuu za Dunia kwa kutumia makunzi yanayopatikana katika mazingira uliopo.",
+    "pg029_n0016_easy_read": "Kazi ya kwanza. Nenda nje ya darasa wakati wa asubuhi. Simama katikati ya shule yako.",
+    "pg029_n0018_easy_read": "Kazi ya pili. Baini upande ambao jua linachomoza. Kisha bainisha Pande Kuu za Dunia. Halafu taja vitu vilivyopo upande huo.",
+    "pg029_n0020_easy_read": "Kazi ya tatu. Tengeneza kifani cha Pande Kuu za Dunia. Tumia makunzi yanayopatikana katika mazingira yako.",
+})
 TOC_SPEECH.update(TABLE_23_SPEECH)
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in TABLE_23_SPEECH.items()})
+
+STEPS_32_SPEECH = {
+    "pg032_n0004": "Hatua a. Chukua dira yako au pakua programu tumizi ya dira;",
+    "pg032_n0005": "Hatua bee. Bofya programu tumizi ya dira na hakikisha mshale wa dira yako umeelekea upande wa Kaskazini, Kas;",
+    "pg032_n0006": "Hatua see. Wakati mshale wa dira umeelekea upande wa Kaskazini, geuka kuelekea upande huo.",
+    "pg032_n0008": "Hatua dee. Mara baada ya kutambua uelekeo wa Kaskazini, unaweza kubaini pande nyingine za dunia.",
+}
+TOC_SPEECH.update(STEPS_32_SPEECH)
+TOC_SPEECH.update({f"{key}_easy_read": value for key, value in STEPS_32_SPEECH.items()})
 
 # Easy-read mode uses the same table-of-contents page references.
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in list(TOC_SPEECH.items())
@@ -173,6 +244,8 @@ def question_number(key: str, text: str):
 
 def speech_text(text: str, key: str = "") -> str:
     text = text.replace("FOR ONLINE READING ONLY", "")
+    for pattern, pronunciation in ENGLISH_SPEECH:
+        text = re.sub(pattern, pronunciation, text, flags=re.IGNORECASE)
     q_number = question_number(key, text) if key else None
     if q_number is not None:
         label = f"Swali la {question_ordinal(q_number)}."
@@ -195,10 +268,20 @@ def speech_text(text: str, key: str = "") -> str:
     )
     # A parenthesized zero marks the scale origin visually and is intentionally silent.
     text = re.sub(r"\(\s*0\s*\)", "", text)
-    text = re.sub(r"\b1\s*:\s*50\s*000\b", "moja kwa elfu hamsini", text)
+    # Speak the two common presentations of the 1-to-50,000 scale distinctly.
+    text = re.sub(
+        r"<math>\s*<mfrac>\s*<mn>\s*1\s*</mn>\s*<mn>\s*50\s*000\s*</mn>\s*</mfrac>\s*</math>",
+        "moja juu ya hamsini elfu",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(r"\b1\s*/\s*50\s*000\b", "moja juu ya hamsini elfu", text)
+    text = re.sub(r"\b1\s*:\s*50\s*000\b", "moja kwa uwiano wa hamsini elfu", text)
     text = re.sub(r"\b1\s*:\s*100\s*000\b", "moja kwa laki moja", text)
     text = re.sub(r"\b(Sm|sm)\b", "sentimeta", text)
     text = re.sub(r"\b(Km|km)\b", "kilometa", text)
+    # Keep the printed line label as “AB”, but pronounce its letters separately.
+    text = re.sub(r"\bAB\b", "ah, bee", text)
     text = text.replace("=", " ni sawa sawa na ").replace("×", " zidisha na ")
     # Decimal numbers are spoken digit by digit after the decimal point.
     text = re.sub(r"\b(\d+)\.(\d+)\b", lambda m: number_sw(int(m.group(1))) + " nukta " +
@@ -206,7 +289,7 @@ def speech_text(text: str, key: str = "") -> str:
     # Roman class/list numerals.
     text = re.sub(r"\b(?:VIII|VII|VI|IV|IX|III|II|V|X|I)\b", lambda m: ROMAN[m.group(0)], text)
     # Alternative markers are expanded to Swahili letter names.
-    text = re.sub(r"\(([a-nA-N])\)", lambda m: f"kipengele {LETTERS[m.group(1).lower()]}", text)
+    text = re.sub(r"\(([a-nA-N])\)", lambda m: f"kipengele {LETTERS[m.group(1).lower()]},", text)
     text = re.sub(r"\b\d+\b", lambda m: number_sw(int(m.group(0))), text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
@@ -241,6 +324,8 @@ async def main():
     parser.add_argument("--concurrency", type=int, default=12)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--match", help="Only synthesize text matching this regular expression")
+    parser.add_argument("--english-only", action="store_true",
+                        help="Only rebuild text containing a configured English term")
     parser.add_argument("--questions-only", action="store_true",
                         help="Only rebuild numbered question labels/prompts")
     args = parser.parse_args()
@@ -256,6 +341,10 @@ async def main():
         if not text.strip():
             continue
         if args.questions_only and question_number(key, text) is None:
+            continue
+        if args.english_only and not any(
+                re.search(pattern, text, flags=re.IGNORECASE)
+                for pattern, _ in ENGLISH_SPEECH):
             continue
         if args.match and not re.search(args.match, text, flags=re.IGNORECASE):
             continue

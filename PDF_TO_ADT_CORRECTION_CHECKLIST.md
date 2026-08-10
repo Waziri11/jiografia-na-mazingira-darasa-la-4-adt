@@ -43,7 +43,7 @@ Source PDF: `JIOGRAFIA NA MAZINGIRA DARASA LA 4.pdf` (96 physical pages).
 | 37 | 31 | `pg037_sec001`, `pg037_sec002` | Verified |
 | 38 | 32 | `pg038_sec001`, `pg038_sec002` | Verified |
 | 39 | 33 | `pg039_sec001`, `pg039_sec002`, `pg039_sec003`, `pg039_sec004` | Verified |
-| 40 | 34 | `pg040_sec001`, `pg040_sec002` | Verified |
+| 40 | 34 | `pg040_sec001` | Verified |
 | 41 | 35 | `pg041_sec001`, `pg041_sec002` | Verified |
 | 42 | 36 | `pg042_sec001`, `pg042_sec002` | Verified |
 | 43 | 37 | `pg043_sec001` | Verified |

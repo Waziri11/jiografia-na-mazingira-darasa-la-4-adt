@@ -25,6 +25,8 @@ for key in list(inline):
     elif local.is_file() and local.suffix == ".html":
         inline[key] = local.read_text(encoding="utf-8")
         updated += 1
+    elif local.suffix in {".html", ".json"}:
+        del inline[key]
 
 # Keep every current reading-order page available when the bundle is opened
 # directly from disk, including newly restored front-matter pages.

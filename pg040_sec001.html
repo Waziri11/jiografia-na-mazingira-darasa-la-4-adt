@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jiografia na Mazingira: Kitabu cha Mwanafunzi Darasa la 4</title>
     <meta name="title-id" content="pg040_sec001" />
-    <meta name="page-section-id" content="53" />
+    <meta name="page-section-id" content="52" />
     <link href="./content/tailwind_output.css" rel="stylesheet">
     <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="./assets/fonts.css" rel="stylesheet">
@@ -16,6 +16,29 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      .pg040-activity-card { position: relative; margin: 2rem 0; overflow: hidden; border-radius: 26px; background: #f2e2d4; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+      .pg040-activity-header { position: relative; height: 66px; background: linear-gradient(90deg,#c45d12 0%,#bd4f65 72%,#eb3a91 100%); }
+      .pg040-activity-title-bar { display: flex; align-items: center; width: 68%; height: 100%; box-sizing: border-box; border-radius: 0 18px 18px 0; background: #c9540b; padding: 0 20px 0 132px; }
+      .pg040-activity-title { color: #fff; font-size: 27px; font-weight: 700; line-height: 1.2; }
+      .pg040-activity-icon { position: absolute; z-index: 20; left: 12px; top: 8px; width: 116px; height: 116px; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0,0,0,.12)); }
+      .pg040-activity-body { min-height: 112px; box-sizing: border-box; padding: 16px 32px 20px; }
+      .pg040-activity-text { margin-left: 108px; color: #222; font-size: 24px; line-height: 1.35; }
+      @media (max-width: 1024px) {
+        .pg040-activity-header { height: 60px; }
+        .pg040-activity-title-bar { padding-left: 116px; }
+        .pg040-activity-title { font-size: 23px; }
+        .pg040-activity-icon { width: 102px; height: 102px; }
+        .pg040-activity-body { min-height: 102px; padding-right: 24px; padding-left: 24px; }
+        .pg040-activity-text { margin-left: 92px; font-size: 20px; }
+      }
+      @media (max-width: 640px) {
+        .pg040-activity-header { height: 54px; }
+        .pg040-activity-title-bar { width: 78%; padding-right: 12px; padding-left: 88px; }
+        .pg040-activity-title { font-size: 17px; }
+        .pg040-activity-icon { left: 8px; top: 4px; width: 78px; height: 78px; }
+        .pg040-activity-body { min-height: 94px; padding: 12px 16px 16px; }
+        .pg040-activity-text { margin-left: 66px; font-size: 15px; line-height: 1.4; }
+      }
     </style></head>
 
 <body class="min-h-screen flex items-center justify-center">
@@ -30,14 +53,18 @@
 
       <p class="mb-8 text-[29px] leading-[1.28] text-neutral-800 max-lg:text-[24px] max-sm:text-[18px]"><span data-id="pg040_n0007">Hata hivyo, sio kila kitu kilichopo katika uso wa dunia huwasilishwa kwenye ramani.</span> <span data-id="pg040_n0008">Vitu vinavyowasilishwa kwenye ramani ni vile ambavyo ni muhimu kwa watumiaji wa ramani hiyo.</span> <span data-id="pg040_n0009">Maamuzi ya nini kinapaswa kuwekwa katika ramani yanafanywa na mchoraji wa ramani kwa kuzingatia mahitaji ya watumiaji wa ramani husika.</span> <span data-id="pg040_n0010">Hivyo, ramani huwasilisha vitu muhimu pekee vilivyokusudiwa kuwasilishwa ili kuifanya isomeke na kueleweka kwa urahisi.</span></p>
 
-      <div class="my-8 flex items-center rounded-[26px] bg-[#f2e2d4] shadow-sm overflow-hidden h-[170px] max-lg:h-[150px] max-sm:h-[120px]">
-        <div class="relative flex h-full w-[68%] items-start bg-gradient-to-r from-red-500 via-orange-500 to-amber-700 rounded-r-[18px] max-sm:w-[72%]">
-          <div aria-hidden="true" class="absolute -left-2 top-3 z-20 flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-pink-400 to-red-500 p-2 shadow-md max-sm:h-20 max-sm:w-20">
-            <div class="h-full w-full rounded-full bg-white"></div>
+      <div class="pg040-activity-card">
+        <div class="pg040-activity-header">
+          <div class="pg040-activity-title-bar">
+            <div data-id="pg040_n0028" class="pg040-activity-title">Kazi ya kufanya namba 1</div>
           </div>
-          <div aria-hidden="true" class="ml-28 mt-9 h-10 w-[58%] rounded-full bg-white/20 max-lg:ml-24 max-lg:w-[52%] max-sm:ml-20 max-sm:mt-8 max-sm:h-8 max-sm:w-[46%]"></div>
         </div>
-        <div class="h-[52px] flex-1 self-start bg-gradient-to-r from-purple-500 to-pink-500 max-sm:h-[40px]"></div>
+
+        <img src="images/pg040_activity_icon.png" alt="" aria-hidden="true" class="pg040-activity-icon" style="max-width: 100%; height: auto;">
+
+        <div class="pg040-activity-body">
+          <p data-id="pg040_n0029" class="pg040-activity-text">Tembelea maeneo kuzunguka shule yako, kisha orodhesha vitu muhimu ambavyo ungeviwasilisha iwapo ungetakiwa kuchora ramani ya shule.</p>
+        </div>
       </div>
 
       <h1 class="mb-4 text-[31px] font-bold leading-tight text-sky-700 max-lg:text-[26px] max-sm:text-[20px]" data-id="pg040_n0012">Alama za ramani</h1>
@@ -62,7 +89,7 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
-    <script src="./assets/offline-preloader.js?v=7ec8d4eac902"></script>
+    <script src="./assets/offline-preloader.js?v=93c5a7ffc338"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>
 </body>

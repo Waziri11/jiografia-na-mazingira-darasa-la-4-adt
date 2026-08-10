@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Pande nane za dunia</title>
+  <desc id="desc">Mishale minane kutoka kitovu kimoja ikionyesha Kas, Kus, Mas, Magh, Kas-mas, Kas-magh, Kus-mas na Kus-magh.</desc>
+  <rect width="900" height="720" fill="#fff"/>
+  <defs>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="10" refY="6.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L13 6.5L0 13Z" fill="#111"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#111" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M450 360V105"/>
+    <path d="M450 360L706 360"/>
+    <path d="M450 360V615"/>
+    <path d="M450 360L194 360"/>
+    <path d="M450 360L274 184"/>
+    <path d="M450 360L626 184"/>
+    <path d="M450 360L274 536"/>
+    <path d="M450 360L626 536"/>
+  </g>
+  <g fill="#111" font-family="Georgia, 'Times New Roman', serif" font-size="46">
+    <text x="450" y="66" text-anchor="middle">Kas</text>
+    <text x="450" y="692" text-anchor="middle">Kus</text>
+    <text x="770" y="375" text-anchor="middle">Mas</text>
+    <text x="130" y="375" text-anchor="middle">Magh</text>
+    <text x="228" y="158" text-anchor="middle">Kas-magh</text>
+    <text x="672" y="158" text-anchor="middle">Kas-mas</text>
+    <text x="218" y="590" text-anchor="middle">Kus-magh</text>
+    <text x="682" y="590" text-anchor="middle">Kus-mas</text>
+  </g>
+</svg>
