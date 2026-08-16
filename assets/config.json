@@ -21,7 +21,7 @@
     "notepad": false,
     "state": true,
     "characterDisplay": false,
-    "highlight": false,
+    "highlight": true,
     "activities": true
   },
   "analytics": {
