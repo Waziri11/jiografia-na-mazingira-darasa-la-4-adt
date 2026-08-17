@@ -15,6 +15,9 @@
   var timelineMode = null;
   var timelineGeneration = 0;
   var resumeTimer = 0;
+  var settleTimer = 0;
+  var pauseTimer = 0;
+  var syncFrame = 0;
 
   function filenameFromUrl(url) {
     try {
@@ -26,6 +29,11 @@
 
   function currentLanguage() {
     return document.documentElement.lang || "sw";
+  }
+
+  function isNarrationAudio(audio) {
+    var source = audio && (audio.currentSrc || audio.src) || "";
+    return /\/content\/i18n\/[^/]+\/audio\//.test(source);
   }
 
   function mediaDuration(url) {
@@ -97,46 +105,100 @@
     var item = timeline.get(filenameFromUrl(activeAudio.currentSrc || activeAudio.src));
     if (!item) return null;
     var elapsed = Math.min(totalAudioDuration, item.offset + activeAudio.currentTime);
-    return (elapsed / totalAudioDuration) * signVideo.duration;
+    return Math.min(signVideo.duration, elapsed);
   }
 
-  function syncNow(force) {
+  function expectedVideoRate() {
+    return activeAudio && activeAudio.playbackRate || 1;
+  }
+
+  function syncNow(hardSeek) {
     if (!activeAudio || !signVideo) return;
     signVideo.muted = true;
     signVideo.defaultMuted = true;
-    signVideo.playbackRate = activeAudio.playbackRate || 1;
     var desired = desiredVideoTime();
-    if (desired !== null && (force || Math.abs(signVideo.currentTime - desired) > 0.45)) {
+    if (desired === null) return;
+
+    var drift = desired - signVideo.currentTime;
+    var baseRate = expectedVideoRate();
+
+    // Seeking on every audio `timeupdate` makes the video decoder continually
+    // discard frames. Seek only after a real timeline jump; correct ordinary
+    // clock drift with a small, temporary playback-rate adjustment instead.
+    if (hardSeek || Math.abs(drift) > 2) {
       try { signVideo.currentTime = desired; } catch (_) {}
+      signVideo.playbackRate = Math.max(0.25, Math.min(4, baseRate));
+      return;
     }
+
+    var correction = Math.max(-0.08, Math.min(0.08, drift * 0.04));
+    signVideo.playbackRate = Math.max(0.25, Math.min(4, baseRate * (1 + correction)));
+  }
+
+  function stopSyncLoop() {
+    if (!syncFrame) return;
+    window.cancelAnimationFrame(syncFrame);
+    syncFrame = 0;
+  }
+
+  function startSyncLoop() {
+    stopSyncLoop();
+    var tick = function () {
+      if (!activeAudio || activeAudio.paused || !signVideo) {
+        syncFrame = 0;
+        return;
+      }
+      syncNow(false);
+      syncFrame = window.requestAnimationFrame(tick);
+    };
+    syncFrame = window.requestAnimationFrame(tick);
   }
 
   function resumeSignVideo() {
     window.clearTimeout(resumeTimer);
-    resumeTimer = window.setTimeout(function () {
+    window.clearTimeout(settleTimer);
+    var resume = function () {
       if (!activeAudio || activeAudio.paused || !signVideo) return;
       syncNow(true);
-      signVideo.play().catch(function () {});
-    }, 0);
+      signVideo.play().then(startSyncLoop).catch(function () {});
+    };
+    resumeTimer = window.setTimeout(resume, 0);
+    // The runtime marks TTS active in the microtask after audio.play(). That
+    // state update can replace or pause the video after the first attempt.
+    settleTimer = window.setTimeout(resume, 200);
   }
 
   function attachAudio(audio) {
-    activeAudio = audio;
     audio.addEventListener("loadedmetadata", function () {
+      if (!isNarrationAudio(audio)) return;
+      activeAudio = audio;
       ensureTimelineForAudio(audio);
       syncNow(true);
     });
     audio.addEventListener("play", function () {
+      if (!isNarrationAudio(audio)) return;
+      window.clearTimeout(pauseTimer);
       activeAudio = audio;
       ensureTimelineForAudio(audio);
       resumeSignVideo();
     });
-    audio.addEventListener("timeupdate", function () { syncNow(false); });
-    audio.addEventListener("ratechange", function () { syncNow(false); });
+    audio.addEventListener("ratechange", function () {
+      if (audio === activeAudio) syncNow(false);
+    });
     audio.addEventListener("pause", function () {
+      if (audio !== activeAudio) return;
+      stopSyncLoop();
       if (!audio.ended) signVideo && signVideo.pause();
     });
-    audio.addEventListener("ended", function () { signVideo && signVideo.pause(); });
+    audio.addEventListener("ended", function () {
+      if (audio !== activeAudio) return;
+      window.clearTimeout(pauseTimer);
+      pauseTimer = window.setTimeout(function () {
+        if (audio !== activeAudio || !audio.paused) return;
+        stopSyncLoop();
+        signVideo && signVideo.pause();
+      }, 150);
+    });
     return audio;
   }
 
@@ -153,19 +215,31 @@
     video.setAttribute("aria-label", "Video ya lugha ya ishara iliyosawazishwa na sauti na maandishi");
     video.muted = true;
     video.defaultMuted = true;
-    video.addEventListener("play", function (event) {
-      // Prevent the runtime's mutual-exclusion handler from stopping TTS.
-      event.stopPropagation();
-      if (activeAudio && !activeAudio.paused) syncNow(true);
-    }, true);
-    video.addEventListener("loadedmetadata", function () {
+    var videoReady = function () {
       signVideo = video;
       if (activeAudio) ensureTimelineForAudio(activeAudio);
       else buildTimeline("standard");
       if (activeAudio && !activeAudio.paused) resumeSignVideo();
-    });
+    };
+    video.addEventListener("loadedmetadata", videoReady);
     signVideo = video;
+    // A cached source can finish loading before MutationObserver attaches the
+    // listener, especially when React replaces the video between audio clips.
+    if (video.readyState >= 1) videoReady();
   }
+
+  // Register before the compiled runtime. React delegates media events from an
+  // ancestor, so stopping the event on the video itself is too late: the
+  // runtime has already paused narration by then.
+  document.addEventListener("play", function (event) {
+    var video = event.target;
+    if (!(video instanceof HTMLVideoElement)) return;
+    event.stopImmediatePropagation();
+    signVideo = video;
+    video.muted = true;
+    video.defaultMuted = true;
+    if (activeAudio && !activeAudio.paused) syncNow(true);
+  }, true);
 
   new MutationObserver(function () {
     document.querySelectorAll("video").forEach(attachVideo);
