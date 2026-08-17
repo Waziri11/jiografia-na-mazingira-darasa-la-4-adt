@@ -18,6 +18,8 @@
   var settleTimer = 0;
   var pauseTimer = 0;
   var syncFrame = 0;
+  var lastVideoTime = 0;
+  var lastNarrationEnd = 0;
 
   function filenameFromUrl(url) {
     try {
@@ -112,8 +114,13 @@
     return activeAudio && activeAudio.playbackRate || 1;
   }
 
+  function isAutomaticTrackTransition() {
+    return lastNarrationEnd > 0 && performance.now() - lastNarrationEnd < 500;
+  }
+
   function syncNow(hardSeek) {
     if (!activeAudio || !signVideo) return;
+    if (Number.isFinite(signVideo.currentTime)) lastVideoTime = signVideo.currentTime;
     signVideo.muted = true;
     signVideo.defaultMuted = true;
     var desired = desiredVideoTime();
@@ -127,6 +134,7 @@
     // clock drift with a small, temporary playback-rate adjustment instead.
     if (hardSeek || Math.abs(drift) > 2) {
       try { signVideo.currentTime = desired; } catch (_) {}
+      lastVideoTime = desired;
       signVideo.playbackRate = Math.max(0.25, Math.min(4, baseRate));
       return;
     }
@@ -149,6 +157,12 @@
         return;
       }
       syncNow(false);
+      if (signVideo.paused && !signVideo.ended) {
+        signVideo.play().catch(function () {});
+      }
+      if (signVideo && Number.isFinite(signVideo.currentTime)) {
+        lastVideoTime = signVideo.currentTime;
+      }
       syncFrame = window.requestAnimationFrame(tick);
     };
     syncFrame = window.requestAnimationFrame(tick);
@@ -159,8 +173,9 @@
     window.clearTimeout(settleTimer);
     var resume = function () {
       if (!activeAudio || activeAudio.paused || !signVideo) return;
-      syncNow(true);
-      signVideo.play().then(startSyncLoop).catch(function () {});
+      syncNow(!isAutomaticTrackTransition());
+      startSyncLoop();
+      signVideo.play().catch(function () {});
     };
     resumeTimer = window.setTimeout(resume, 0);
     // The runtime marks TTS active in the microtask after audio.play(). That
@@ -173,7 +188,7 @@
       if (!isNarrationAudio(audio)) return;
       activeAudio = audio;
       ensureTimelineForAudio(audio);
-      syncNow(true);
+      syncNow(!isAutomaticTrackTransition());
     });
     audio.addEventListener("play", function () {
       if (!isNarrationAudio(audio)) return;
@@ -192,6 +207,7 @@
     });
     audio.addEventListener("ended", function () {
       if (audio !== activeAudio) return;
+      lastNarrationEnd = performance.now();
       window.clearTimeout(pauseTimer);
       pauseTimer = window.setTimeout(function () {
         if (audio !== activeAudio || !audio.paused) return;
@@ -216,7 +232,13 @@
     video.muted = true;
     video.defaultMuted = true;
     var videoReady = function () {
+      if (signVideo && signVideo !== video && Number.isFinite(signVideo.currentTime)) {
+        lastVideoTime = signVideo.currentTime;
+      }
       signVideo = video;
+      if (lastVideoTime > 0 && video.currentTime + 0.1 < lastVideoTime) {
+        try { video.currentTime = Math.min(lastVideoTime, video.duration || lastVideoTime); } catch (_) {}
+      }
       if (activeAudio) ensureTimelineForAudio(activeAudio);
       else buildTimeline("standard");
       if (activeAudio && !activeAudio.paused) resumeSignVideo();
@@ -235,7 +257,13 @@
     var video = event.target;
     if (!(video instanceof HTMLVideoElement)) return;
     event.stopImmediatePropagation();
+    if (signVideo && signVideo !== video && Number.isFinite(signVideo.currentTime)) {
+      lastVideoTime = signVideo.currentTime;
+    }
     signVideo = video;
+    if (lastVideoTime > 0 && video.currentTime + 0.1 < lastVideoTime) {
+      try { video.currentTime = Math.min(lastVideoTime, video.duration || lastVideoTime); } catch (_) {}
+    }
     video.muted = true;
     video.defaultMuted = true;
     if (activeAudio && !activeAudio.paused) syncNow(true);
