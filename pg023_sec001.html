@@ -16,6 +16,13 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      input[data-activity-item="item-1"] + span::before { content: "(b) "; font-weight: 700; }
+      input[data-activity-item="item-2"] + span::before { content: "(c) "; font-weight: 700; }
+      input[data-activity-item="item-3"] + span::before { content: "(d) "; font-weight: 700; }
+      input[data-activity-item="item-4"] + span::before { content: "(a) "; font-weight: 700; }
+      input[data-activity-item="item-5"] + span::before { content: "(b) "; font-weight: 700; }
+      input[data-activity-item="item-6"] + span::before { content: "(c) "; font-weight: 700; }
+      input[data-activity-item="item-7"] + span::before { content: "(d) "; font-weight: 700; }
     </style></head>
 
 <body class="min-h-screen flex items-center justify-center">
@@ -166,7 +173,7 @@
     </script>
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
-    <script src="./assets/offline-preloader.js?v=2d1ffac000e9"></script>
+    <script src="./assets/offline-preloader.js?v=de7ba23dd981"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/accessibility-media-sync.js?v=9"></script>
     <script src="./assets/base.bundle.local.js"></script>

@@ -110,7 +110,8 @@ def main() -> int:
             )
 
         for html_file, src, alt in occurrences:
-            if not src or not (ROOT / src).exists():
+            source_path = src.split("?", 1)[0].split("#", 1)[0] if src else ""
+            if not source_path or not (ROOT / source_path).exists():
                 errors.append(f"{html_file}: missing image source for {data_id}: {src}")
             if not alt.strip():
                 errors.append(f"{html_file}: empty alt text for {data_id}")

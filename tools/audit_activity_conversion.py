@@ -21,9 +21,13 @@ type_map = {
 # These sections introduce a figure, map, or external-tool procedure whose
 # actual response questions are converted in the following section/page.
 INTENTIONALLY_INSTRUCTIONAL = {
+    # Figure/map introductions whose response controls are on the next spine item.
+    "pg030_sec002",
     "pg041_sec001",
     "pg047_sec001",
+    "pg048_sec002",
     "pg054_sec001",
+    "pg061_sec002",
     "pg080_sec001",
     "pg085_sec001",
     "pg095_sec001",

@@ -189,6 +189,8 @@
     "section_id": "pg019_sec001",
     "href": "pg019_sec001.html",
     "source_text_ids": [
+      "pg019_n0003",
+      "pg019_n0004",
       "pg019_im037",
       "pg019_n0007",
       "pg019_n0010",
@@ -578,6 +580,38 @@
       "dropzones": 0
     },
     "review_notes": "Interactive controls present."
+  },
+  {
+    "reader_position": 39,
+    "pdf_page": 24,
+    "section_id": "pg030_sec002",
+    "href": "pg030_sec002.html",
+    "source_text_ids": [
+      "pg030_n0006",
+      "pg030_n0008",
+      "pg030_n0009",
+      "pg030_n0010",
+      "pg030_n0012",
+      "pg030_n0013",
+      "pg030_n0014",
+      "pg030_im113"
+    ],
+    "source_images": [
+      "pg030_im113_illustration_v3.png"
+    ],
+    "activity_type": "instructional_practical",
+    "question_count": 1,
+    "current_state": "static_text_or_image",
+    "answer_key_status": "not_applicable",
+    "conversion_status": "intentionally_instructional",
+    "controls": {
+      "textareas": 0,
+      "text_inputs": 0,
+      "radio_options": 0,
+      "matching_items": 0,
+      "dropzones": 0
+    },
+    "review_notes": "Practical/drawing/external-tool task retained as instructions."
   },
   {
     "reader_position": 40,
@@ -1221,6 +1255,38 @@
     "review_notes": "Interactive controls present."
   },
   {
+    "reader_position": 65,
+    "pdf_page": 42,
+    "section_id": "pg048_sec002",
+    "href": "pg048_sec002.html",
+    "source_text_ids": [
+      "pg048_n0024",
+      "pg048_n0026",
+      "pg048_n0027",
+      "pg048_n0028",
+      "pg048_n0030",
+      "pg048_n0031",
+      "pg048_n0033",
+      "pg048_im087"
+    ],
+    "source_images": [
+      "pg048_im087_illustration_v3.png"
+    ],
+    "activity_type": "instructional_practical",
+    "question_count": 1,
+    "current_state": "static_text_or_image",
+    "answer_key_status": "not_applicable",
+    "conversion_status": "intentionally_instructional",
+    "controls": {
+      "textareas": 0,
+      "text_inputs": 0,
+      "radio_options": 0,
+      "matching_items": 0,
+      "dropzones": 0
+    },
+    "review_notes": "Practical/drawing/external-tool task retained as instructions."
+  },
+  {
     "reader_position": 66,
     "pdf_page": 43,
     "section_id": "pg049_sec001",
@@ -1559,6 +1625,58 @@
     "review_notes": "Interactive controls present."
   },
   {
+    "reader_position": 85,
+    "pdf_page": 55,
+    "section_id": "pg061_sec002",
+    "href": "pg061_sec002.html",
+    "source_text_ids": [
+      "pg061_n0011",
+      "pg061_n0012",
+      "pg061_n0038",
+      "pg061_im038",
+      "pg061_n0014",
+      "pg061_n0015",
+      "pg061_n0016",
+      "pg061_n0017",
+      "pg061_n0018",
+      "pg061_n0019",
+      "pg061_n0020",
+      "pg061_n0021",
+      "pg061_n0022",
+      "pg061_n0023",
+      "pg061_n0024",
+      "pg061_n0025",
+      "pg061_n0026",
+      "pg061_n0027",
+      "pg061_n0028",
+      "pg061_n0029",
+      "pg061_n0030",
+      "pg061_n0031",
+      "pg061_n0032",
+      "pg061_n0033",
+      "pg061_n0034",
+      "pg061_n0035",
+      "pg061_n0036",
+      "pg061_n0037"
+    ],
+    "source_images": [
+      "pg061_im038_illustration_v3.png"
+    ],
+    "activity_type": "instructional_practical",
+    "question_count": 1,
+    "current_state": "static_text_or_image",
+    "answer_key_status": "not_applicable",
+    "conversion_status": "intentionally_instructional",
+    "controls": {
+      "textareas": 0,
+      "text_inputs": 0,
+      "radio_options": 0,
+      "matching_items": 0,
+      "dropzones": 0
+    },
+    "review_notes": "Practical/drawing/external-tool task retained as instructions."
+  },
+  {
     "reader_position": 86,
     "pdf_page": 56,
     "section_id": "pg062_sec001",
@@ -1643,6 +1761,8 @@
     "section_id": "pg067_sec001",
     "href": "pg067_sec001.html",
     "source_text_ids": [
+      "pg067_n0003",
+      "pg067_n0004",
       "pg067_n0006",
       "pg067_im035",
       "pg067_n0008",
@@ -1691,12 +1811,40 @@
       "pg069_n0011"
     ],
     "source_images": [
-      "pg069_im022_clean.svg",
-      "pg069_im003.png",
-      "pg069_im024.png"
+      "pg069_figure11_original.png?v=9"
     ],
     "activity_type": "instructional_practical",
-    "question_count": 6,
+    "question_count": 5,
+    "current_state": "static_text_or_image",
+    "answer_key_status": "not_applicable",
+    "conversion_status": "intentionally_instructional",
+    "controls": {
+      "textareas": 0,
+      "text_inputs": 0,
+      "radio_options": 0,
+      "matching_items": 0,
+      "dropzones": 0
+    },
+    "review_notes": "Practical/drawing/external-tool task retained as instructions."
+  },
+  {
+    "reader_position": 94,
+    "pdf_page": 64,
+    "section_id": "pg070_sec001",
+    "href": "pg070_sec001.html",
+    "source_text_ids": [
+      "pg070_n0002",
+      "pg070_n0003",
+      "pg070_n0006",
+      "pg070_n0007",
+      "pg070_n0009",
+      "pg070_im036"
+    ],
+    "source_images": [
+      "pg070_im036.png"
+    ],
+    "activity_type": "instructional_practical",
+    "question_count": 1,
     "current_state": "static_text_or_image",
     "answer_key_status": "not_applicable",
     "conversion_status": "intentionally_instructional",
@@ -1755,8 +1903,8 @@
     "href": "pg073_sec001.html",
     "source_text_ids": [
       "pg073_im006",
-      "pg073_n0003",
       "pg073_im009",
+      "pg073_n0003",
       "pg073_n0005",
       "pg073_n0006",
       "pg073_n0008",
@@ -1772,6 +1920,37 @@
     ],
     "activity_type": "instructional_practical",
     "question_count": 4,
+    "current_state": "static_text_or_image",
+    "answer_key_status": "not_applicable",
+    "conversion_status": "intentionally_instructional",
+    "controls": {
+      "textareas": 0,
+      "text_inputs": 0,
+      "radio_options": 0,
+      "matching_items": 0,
+      "dropzones": 0
+    },
+    "review_notes": "Practical/drawing/external-tool task retained as instructions."
+  },
+  {
+    "reader_position": 99,
+    "pdf_page": 69,
+    "section_id": "pg075_sec001",
+    "href": "pg075_sec001.html",
+    "source_text_ids": [
+      "pg075_n0002",
+      "pg075_n0003",
+      "pg075_n0004",
+      "pg075_n0007",
+      "pg075_n0008",
+      "pg075_n0010",
+      "pg075_im027"
+    ],
+    "source_images": [
+      "pg075_im027.png"
+    ],
+    "activity_type": "instructional_practical",
+    "question_count": 1,
     "current_state": "static_text_or_image",
     "answer_key_status": "not_applicable",
     "conversion_status": "intentionally_instructional",
@@ -1964,6 +2143,8 @@
     "source_text_ids": [
       "pg083_n0002",
       "pg083_n0003",
+      "pg083_n0005",
+      "pg083_n0006",
       "pg083_n0009",
       "pg083_im113",
       "pg083_n0010",
@@ -1994,12 +2175,12 @@
     "section_id": "pg085_sec001",
     "href": "pg085_sec001.html",
     "source_text_ids": [
-      "pg085_im149",
+      "pg085_n0002",
+      "pg085_n0003",
       "pg085_n0081",
       "pg085_im155"
     ],
     "source_images": [
-      "pg085_im149.png",
       "pg085_im155.png"
     ],
     "activity_type": "instructional_practical",

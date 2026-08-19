@@ -31,8 +31,20 @@ CLASS_ORDINAL = {"I": "kwanza", "II": "pili", "III": "tatu", "IV": "nne", "V": "
 # pronounce embedded English product and interface terms naturally. Longer
 # phrases must precede their component words.
 ENGLISH_SPEECH = (
+    (r"\bKas\s*[-–]\s*Mas\b", "Kaskazini Mashariki"),
+    (r"\bKus\s*[-–]\s*Magh\b", "Kusini Magharibi"),
+    (r"\bKus\s*[-–]\s*Mas\b", "Kusini Mashariki"),
+    (r"\bKas\s*[-–]\s*Magh\b", "Kaskazini Magharibi"),
+    (r"\bUDSM\b", "Yu Dee Es Em"),
+    (r"\bUSGS\b", "Yu Es Jee Es"),
+    (r"\bRCMRD\b", "Aa See Em Aa Dee"),
+    (r"\bESRI\b", "Ee Es Aa Ai"),
+    (r"\bGPS\b", "Jee Pee Es"),
+    (r"\bDkt\.?", "Daktari"),
+    (r"\bBw\.?", "Bwana"),
     (r"\bGoogle My Maps\b", "Guu gol Mai Maps"),
     (r"\bGoogle Maps\b", "Guu gol Maps"),
+    (r"\bOpenStreetMap\b", "Oupen Street Map"),
     (r"\bOpenstreet Map\b", "Oupen Street Map"),
     (r"\bMy Maps\b", "Mai Maps"),
     (r"\bGoogle\b", "Guu gol"),
@@ -180,12 +192,12 @@ TABLE_23_SPEECH = {
 TOC_SPEECH.update({
     "pg025_n0002": "Sura ya Pili. Pande Kuu za Dunia.",
     "pg025_n0002_easy_read": "Sura ya Pili. Pande Kuu za Dunia.",
-    "pg029_n0016": "Kazi ya kwanza. Nenda nje ya darasa wakati wa asubuhi, na simama eneo la katikati ya shule yako.",
-    "pg029_n0018": "Kazi ya pili. Baini upande wa jua linakochomoza, kisha bainisha Pande Kuu za Dunia na utaje vitu vinavyopatikana katika upande husika.",
-    "pg029_n0020": "Kazi ya tatu. Tengeneza kifani cha Pande Kuu za Dunia kwa kutumia makunzi yanayopatikana katika mazingira uliopo.",
-    "pg029_n0016_easy_read": "Kazi ya kwanza. Nenda nje ya darasa wakati wa asubuhi. Simama katikati ya shule yako.",
-    "pg029_n0018_easy_read": "Kazi ya pili. Baini upande ambao jua linachomoza. Kisha bainisha Pande Kuu za Dunia. Halafu taja vitu vilivyopo upande huo.",
-    "pg029_n0020_easy_read": "Kazi ya tatu. Tengeneza kifani cha Pande Kuu za Dunia. Tumia makunzi yanayopatikana katika mazingira yako.",
+    "pg029_n0016": "Swali la kwanza. Nenda nje ya darasa wakati wa asubuhi, na simama eneo la katikati ya shule yako.",
+    "pg029_n0018": "Swali la pili. Baini upande wa jua linakochomoza, kisha bainisha Pande Kuu za Dunia na utaje vitu vinavyopatikana katika upande husika.",
+    "pg029_n0020": "Swali la tatu. Tengeneza kifani cha Pande Kuu za Dunia kwa kutumia makunzi yanayopatikana katika mazingira uliopo.",
+    "pg029_n0016_easy_read": "Swali la kwanza. Nenda nje ya darasa wakati wa asubuhi. Simama katikati ya shule yako.",
+    "pg029_n0018_easy_read": "Swali la pili. Baini upande ambao jua linachomoza. Kisha bainisha Pande Kuu za Dunia. Halafu taja vitu vilivyopo upande huo.",
+    "pg029_n0020_easy_read": "Swali la tatu. Tengeneza kifani cha Pande Kuu za Dunia. Tumia makunzi yanayopatikana katika mazingira yako.",
 })
 TOC_SPEECH.update(TABLE_23_SPEECH)
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in TABLE_23_SPEECH.items()})

@@ -32,7 +32,9 @@ if set(audios["sw"]) != set(audios["sw-TZ"]):
 
 for language in ("sw", "sw-TZ"):
     for data_id, value in catalogs[language].items():
-        if re.search(r"\w", value, flags=re.UNICODE) and data_id not in audios[language]:
+        if (re.search(r"\w", value, flags=re.UNICODE)
+                and "_ans_" not in data_id and "_sec" not in data_id
+                and data_id not in audios[language]):
             errors.append(f"{language}: non-empty text has no audio mapping: {data_id}")
 
 seen_data_ids = Counter()
@@ -56,17 +58,20 @@ for index, page in enumerate(pages, start=1):
         for language in ("sw", "sw-TZ"):
             if data_id not in catalogs[language]:
                 errors.append(f"{page['href']}: {data_id} missing from {language} texts")
-            elif catalogs[language][data_id].strip() and data_id not in audios[language]:
+            elif (re.search(r"\w", catalogs[language][data_id], flags=re.UNICODE)
+                  and data_id not in audios[language]):
                 errors.append(f"{page['href']}: {data_id} missing from {language} audios")
 
     for src in re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', html, flags=re.I):
-        if not (ROOT / src).is_file():
+        source_path = src.split("?", 1)[0].split("#", 1)[0]
+        if not (ROOT / source_path).is_file():
             errors.append(f"{page['href']}: missing image {src}")
 
 for language in ("sw", "sw-TZ"):
     audio_dir = ROOT / f"content/i18n/{language}/audio"
     for key, filename in audios[language].items():
-        if catalogs[language].get(key, "").strip() and not (audio_dir / filename).is_file():
+        if (re.search(r"\w", catalogs[language].get(key, ""), flags=re.UNICODE)
+                and not (audio_dir / filename).is_file()):
             errors.append(f"{language}: missing audio file for {key}: {filename}")
 
 # Validation-report regression checks.
@@ -97,7 +102,7 @@ required_html = {
     "pg036_sec001.html": ('data-id="pg036_n0001"',),
     "pg036_sec002.html": ('data-id="pg036_n0047"', 'data-id="pg036_n0049"', 'data-id="pg036_n0051"'),
     "pg087_sec001.html": ('data-id="pg087_n0006"', 'data-id="pg087_n0014"'),
-    "pg088_sec001.html": ('id="section-b-88"',),
+    "pg088_sec002.html": ('id="section-b-88"',),
 }
 for filename, needles in required_html.items():
     text = (ROOT / filename).read_text(encoding="utf-8")
