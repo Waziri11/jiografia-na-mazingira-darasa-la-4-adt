@@ -43,7 +43,15 @@ path.write_text(source[:start] + payload + source[end:], encoding="utf-8")
 digest = hashlib.sha256(path.read_bytes()).hexdigest()
 for html_path in list(ROOT.glob("*.html")):
     html = html_path.read_text(encoding="utf-8")
+    if "assets/live-update.js" not in html:
+        html = re.sub(
+            r'(<script\s+src=["\']\./assets/offline-preloader\.js[^>]*></script>)',
+            r'<script src="./assets/live-update.js"></script>\n    \1',
+            html,
+            count=1,
+        )
     revised = re.sub(r"offline-preloader\.js(?:\?v=[^\"']+)?", f"offline-preloader.js?v={digest[:12]}", html)
+    revised = re.sub(r"live-update\.js(?:\?v=[^\"']+)?", f"live-update.js?v={digest[:12]}", revised)
     if revised != html:
         html_path.write_text(revised, encoding="utf-8")
 (ROOT / ".build-hash").write_text(digest + "\n", encoding="utf-8")
