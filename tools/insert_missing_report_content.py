@@ -33,6 +33,18 @@ for language in ("sw", "sw-TZ"):
     data["pg036_n0047"] = "(b) Kusini"
     data["pg036_n0049"] = "(c) Mashariki"
     data["pg036_n0051"] = "(d) Magharibi"
+    data["pg087_n0006"] = "Mambo muhimu ya kuzingatia ili kubaini usahihi wa mipaka ya kiutawala ya eneo katika ramani ni pamoja na ______."
+    data["pg061_n0005"] = "Vilevile, tunaweza kubaini uelekeo na mahali kwa kutumia ramani za kidijitali na GPS (Ji-Pi-Es)."
+    data["pg061_n0006"] = "GPS (Ji-Pi-Es) hutumika kubaini mahali ulipo, wakati ramani ya kidijitali huwasilisha sehemu mbalimbali pamoja na pale unapotaka kwenda."
+    data["pg061_n0007"] = "Baada ya kubaini mahali ulipo na unakokwenda, GPS (Ji-Pi-Es) hukokotoa na kuwasilisha umbali na uelekeo wa kufuata."
+    data["pg061_n0008"] = "Ramani za kidijitali na GPS (Ji-Pi-Es) zinapatikana katika vifaa vya kielektroniki kama vile, simujanja, tableti na kompyuta."
+    data["pg066_n0007"] = "= Sentimeta laki mbili na elfu hamsini (250 000)"
+    data["pg066_n0009"] = "Ikiwa kilometa 1 = sentimeta laki moja (100 000), umbali halisi kwenye ardhi unaweza kubadilishwa kutoka sentimeta kwenda kilometa kama ifuatavyo:"
+    data["pg066_n0011"] = "(Umbali kwenye ardhi katika Sentimeta / Sentimeta laki moja) × Kilometa 1"
+    data["pg066_n0012"] = "= Sentimeta laki mbili na elfu hamsini × Kilometa 1 / Sentimeta laki moja"
+    data["pg085_n0076"] = "Mwandishi: Taasisi ya Elimu Tanzania (TET)"
+    data["pg095_n0068"] = "Chanzo: Ofisi ya Takwimu Tanzania (2019)"
+    data["pg095_n0069"] = "Mwandishi: Taasisi ya Elimu Tanzania (TET)"
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     audio_path = ROOT / f"content/i18n/{language}/audios.json"
@@ -115,12 +127,54 @@ section_b_88 = '''
         <h2 id="section-b-88" data-id="pg088_n0044" class="text-2xl font-bold text-emerald-900">B. Maswali ya kuoanisha</h2>
         <p class="mt-3 text-lg"><span data-id="pg088_n0046">6.</span> <span data-id="pg088_n0047">Oanisha maneno yaliyopo katika safu A na yale ya safu B kupata maana kamili</span></p>
         <figure class="mt-5">
+          <span class="sr-only" data-id="pg088_im010"></span>
           <img src="images/pg088_im010.png" data-id="pg088_im010" class="mx-auto h-auto max-w-full" alt="Jedwali la kuoanisha maana kamili lenye safu Na., Safu A na Safu B.">
           <figcaption class="sr-only">Jedwali la kuoanisha maana kamili lenye safu Na., Safu A na Safu B.</figcaption>
         </figure>
       </section>
 '''
 insert_before(ROOT / "pg088_sec001.html", "  </section>\n</div>", section_b_88, 'id="section-b-88"')
+
+# Chapter 3 vocabulary block, present in the catalogs but omitted from HTML.
+glossary_58 = '''<section class="mt-10 rounded-2xl border border-blue-200 bg-blue-50 p-6" aria-labelledby="pg058-glossary">
+  <h2 id="pg058-glossary" data-id="pg058_n0034" class="mb-5 text-3xl font-bold text-blue-900">Msamiati</h2>
+  <dl class="grid gap-4">
+    <div><dt data-id="pg058_n0036" class="font-bold">Kiolesura</dt><dd data-id="pg058_n0037">Sura ya programu fulani katika kompyuta</dd></div>
+    <div><dt data-id="pg058_n0039" class="font-bold">Kipanya</dt><dd data-id="pg058_n0040">Kifaa cha kompyuta chenye vitufe viwili vya kubofya kulia na kushoto, kinachofanya kazi kwa kutumia alama ya mshale au kiganja, kung’amua na kufungua taarifa mbalimbali ndani ya kompyuta.</dd></div>
+    <div><dt data-id="pg058_n0042" class="font-bold">Kivinjari</dt><dd data-id="pg058_n0043">Programu tumizi inayomuwezesha mtumiaji kusoma na kuunganishwa na taarifa zingine zilizomo ndani ya wavuti kuu.</dd></div>
+    <div><dt data-id="pg058_n0045" class="font-bold">Wavuti</dt><dd data-id="pg058_n0046">Mtandao wa mawasiliano ya kompyuta wenye taarifa mbalimbali za kimataifa.</dd></div>
+  </dl>
+</section>'''
+insert_before(ROOT / "pg058_sec002.html", "</div></main>", glossary_58, 'id="pg058-glossary"')
+
+# Complete questions 3–5 of Chapter 4, Exercise 1 (continued from question 2).
+questions_3_5 = '''<div class="mt-8 space-y-7" aria-label="Maswali ya 3 hadi 5">
+  <div><p class="text-xl">3. Iwapo unaona doti nyingi zilizokaribiana kwenye ramani, inamaanisha nini?</p><div class="ml-8 mt-2 space-y-1"><p>(a) Kuna watu wachache</p><p>(b) Kuna watu wengi</p><p>(c) Kuna miti mingi</p><p>(d) Kuna maji mengi</p></div></div>
+  <div><p class="text-xl">4. Doti zilizotawanyika kwenye ramani zinaashiria nini?</p><div class="ml-8 mt-2 space-y-1"><p>(a) Kuna watu wengi</p><p>(b) Kuna watu wachache</p><p>(c) Kuna magari mengi</p><p>(d) Kuna shule nyingi</p></div></div>
+  <div><p class="text-xl">5. Ni njia ipi kati ya zifuatazo inaweza kukusaidia kubaini mtawanyiko wa watu na vitu?</p><div class="ml-8 mt-2 space-y-1"><p>(a) Kitabu cha hadithi</p><p>(b) Redio</p><p>(c) Mifumo ya Taarifa za Kijiografia (GIS)</p><p>(d) Saa ya mkononi</p></div></div>
+</div>'''
+insert_before(ROOT / "pg086_sec002.html", "</section>", questions_3_5, 'aria-label="Maswali ya 3 hadi 5"')
+
+# Place Activity 7's response field after its subparts, not before them.
+pg089 = ROOT / "pg089_sec001.html"
+p89 = pg089.read_text(encoding="utf-8")
+q7_field = '<textarea class="mt-3 mb-5 min-h-24 w-full resize-y rounded-lg border border-gray-400 bg-white p-3 text-base" data-aria-id="aria-pg089_sec001-1" aria-label="Jibu la swali la 1" tabindex="0"></textarea>'
+if q7_field in p89:
+    p89 = p89.replace(q7_field, "", 1)
+    q7_end = '<div class="mb-4 pl-12 text-[1.05rem] leading-relaxed max-lg:pl-8 max-lg:text-base max-sm:pl-5 max-sm:text-sm"><span data-id="pg089_n0012">(c)Bonde.</span></div>'
+    p89 = p89.replace(q7_end, q7_end + q7_field.replace('Jibu la swali la 1', 'Jibu la swali la 7 na vipengele vyake'), 1)
+    pg089.write_text(p89, encoding="utf-8")
+
+# Add the standard activity character where the report identified omissions.
+for filename, heading_id in (("pg060_sec001.html", "pg060_n0005"), ("pg070_sec001.html", "pg070_n0006")):
+    path = ROOT / filename
+    html = path.read_text(encoding="utf-8")
+    guard = f'data-report-icon-for="{heading_id}"'
+    if guard not in html:
+        needle = f'<div class="inline-block' if filename.startswith("pg060") else '<div class="bg-gradient-to-r'
+        icon = f'<img src="images/pg045_activity_icon.png" alt="" aria-hidden="true" data-report-icon-for="{heading_id}" class="mb-3 h-20 w-20 rounded-full bg-white object-contain shadow-md">'
+        html = html.replace(needle, icon + needle, 1)
+        path.write_text(html, encoding="utf-8")
 
 # Replace the inaccessible image-only first question on page 87 with real text.
 pg087 = ROOT / "pg087_sec001.html"

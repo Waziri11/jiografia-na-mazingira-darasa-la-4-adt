@@ -593,7 +593,6 @@
       "pg030_n0010",
       "pg030_n0012",
       "pg030_n0013",
-      "pg030_n0014",
       "pg030_im113"
     ],
     "source_images": [
@@ -666,6 +665,9 @@
       "pg032_n0007",
       "pg032_n0008",
       "pg032_n0009",
+      "pg032_n0026",
+      "pg032_n0027",
+      "pg032_n0028",
       "pg032_n0011",
       "pg032_n0013",
       "pg032_n0014",
@@ -673,10 +675,7 @@
       "pg032_n0016",
       "pg032_n0018",
       "pg032_n0020",
-      "pg032_n0021",
-      "pg032_n0026",
-      "pg032_n0027",
-      "pg032_n0028"
+      "pg032_n0021"
     ],
     "source_images": [],
     "activity_type": "instructional_practical",
@@ -1006,7 +1005,9 @@
       "pg042_n0012",
       "pg042_n0013"
     ],
-    "source_images": [],
+    "source_images": [
+      "pg045_activity_icon.png"
+    ],
     "activity_type": "instructional_practical",
     "question_count": 1,
     "current_state": "static_text_or_image",
@@ -1551,7 +1552,7 @@
     "controls": {
       "textareas": 0,
       "text_inputs": 0,
-      "radio_options": 4,
+      "radio_options": 5,
       "matching_items": 0,
       "dropzones": 0
     },
@@ -1571,7 +1572,16 @@
       "pg058_n0026",
       "pg058_n0028",
       "pg058_n0030",
-      "pg058_n0032"
+      "pg058_n0032",
+      "pg058_n0034",
+      "pg058_n0036",
+      "pg058_n0037",
+      "pg058_n0039",
+      "pg058_n0040",
+      "pg058_n0042",
+      "pg058_n0043",
+      "pg058_n0045",
+      "pg058_n0046"
     ],
     "source_images": [],
     "activity_type": "open_answer",
@@ -1608,7 +1618,8 @@
       "pg060_n0015"
     ],
     "source_images": [
-      "pg060_im030.png"
+      "pg060_im030.png",
+      "pg045_activity_icon.png"
     ],
     "activity_type": "open_answer",
     "question_count": 5,
@@ -1841,6 +1852,7 @@
       "pg070_im036"
     ],
     "source_images": [
+      "pg045_activity_icon.png",
       "pg070_im036.png"
     ],
     "activity_type": "instructional_practical",
@@ -2315,9 +2327,15 @@
       "pg088_n0036",
       "pg088_n0038",
       "pg088_n0040",
-      "pg088_n0042"
+      "pg088_n0042",
+      "pg088_n0044",
+      "pg088_n0046",
+      "pg088_n0047",
+      "pg088_im010"
     ],
-    "source_images": [],
+    "source_images": [
+      "pg088_im010.png"
+    ],
     "activity_type": "multiple_choice",
     "question_count": 4,
     "current_state": "interactive",
