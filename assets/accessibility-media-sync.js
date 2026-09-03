@@ -21,6 +21,21 @@
   var lastVideoTime = 0;
   var lastNarrationEnd = 0;
 
+  function ensureEndOfPageAnnouncement() {
+    var content = document.getElementById("content");
+    if (!content || content.querySelector('[data-id="ui_end_of_page"]')) return;
+    var announcement = document.createElement("span");
+    announcement.className = "sr-only";
+    announcement.setAttribute("data-id", "ui_end_of_page");
+    announcement.setAttribute("data-end-of-page-announcement", "true");
+    announcement.textContent = "Mwisho wa ukurasa.";
+    content.appendChild(announcement);
+  }
+
+  // This script loads before the reader runtime. Add the localized final item
+  // now so the runtime includes it in the normal and Easy Read audio sequence.
+  ensureEndOfPageAnnouncement();
+
   function filenameFromUrl(url) {
     try {
       return decodeURIComponent(new URL(url, location.href).pathname.split("/").pop() || "");
@@ -274,6 +289,7 @@
   }).observe(document.documentElement, { childList: true, subtree: true });
 
   document.addEventListener("DOMContentLoaded", function () {
+    ensureEndOfPageAnnouncement();
     document.querySelectorAll("video").forEach(attachVideo);
     buildTimeline("standard");
   });

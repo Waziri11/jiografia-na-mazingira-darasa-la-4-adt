@@ -312,6 +312,14 @@ def speech_text(text: str, key: str = "") -> str:
     # Decimal numbers are spoken digit by digit after the decimal point.
     text = re.sub(r"\b(\d+)\.(\d+)\b", lambda m: number_sw(int(m.group(1))) + " nukta " +
                   ", ".join(ONES[int(d)] for d in m.group(2)), text)
+    # Parenthesized Roman list markers must be handled before alphabetic
+    # alternatives so (i) is not mistaken for the letter i.
+    text = re.sub(
+        r"\(\s*(VIII|VII|VI|IV|IX|III|II|V|X|I)\s*\)",
+        lambda m: f"Namba {ROMAN[m.group(1).upper()]} ya Kirumi,",
+        text,
+        flags=re.IGNORECASE,
+    )
     # Roman class/list numerals.
     text = re.sub(r"\b(?:VIII|VII|VI|IV|IX|III|II|V|X|I)\b", lambda m: ROMAN[m.group(0)], text)
     # Alternative markers are expanded to Swahili letter names.
