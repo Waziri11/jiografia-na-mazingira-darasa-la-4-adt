@@ -125,8 +125,10 @@
     return Math.min(signVideo.duration, elapsed);
   }
 
-  function expectedVideoRate() {
-    return activeAudio && activeAudio.playbackRate || 1;
+  function forceNaturalVideoRate(video) {
+    if (!video) return;
+    if (video.defaultPlaybackRate !== 1) video.defaultPlaybackRate = 1;
+    if (video.playbackRate !== 1) video.playbackRate = 1;
   }
 
   function isAutomaticTrackTransition() {
@@ -141,21 +143,15 @@
     var desired = desiredVideoTime();
     if (desired === null) return;
 
-    var drift = desired - signVideo.currentTime;
-    var baseRate = expectedVideoRate();
+    forceNaturalVideoRate(signVideo);
 
-    // Seeking on every audio `timeupdate` makes the video decoder continually
-    // discard frames. Seek only after a real timeline jump; correct ordinary
-    // clock drift with a small, temporary playback-rate adjustment instead.
-    if (hardSeek || Math.abs(drift) > 2) {
+    // Align the video only when narration starts at a deliberate timeline
+    // position. During continuous narration, let the recorded sign-language
+    // video run naturally at 1× even when the learner speeds up speech.
+    if (hardSeek && Math.abs(desired - signVideo.currentTime) > 0.35) {
       try { signVideo.currentTime = desired; } catch (_) {}
       lastVideoTime = desired;
-      signVideo.playbackRate = Math.max(0.25, Math.min(4, baseRate));
-      return;
     }
-
-    var correction = Math.max(-0.08, Math.min(0.08, drift * 0.04));
-    signVideo.playbackRate = Math.max(0.25, Math.min(4, baseRate * (1 + correction)));
   }
 
   function stopSyncLoop() {
@@ -246,6 +242,10 @@
     video.setAttribute("aria-label", "Video ya lugha ya ishara iliyosawazishwa na sauti na maandishi");
     video.muted = true;
     video.defaultMuted = true;
+    forceNaturalVideoRate(video);
+    video.addEventListener("ratechange", function () {
+      forceNaturalVideoRate(video);
+    });
     var videoReady = function () {
       if (signVideo && signVideo !== video && Number.isFinite(signVideo.currentTime)) {
         lastVideoTime = signVideo.currentTime;
@@ -281,6 +281,7 @@
     }
     video.muted = true;
     video.defaultMuted = true;
+    forceNaturalVideoRate(video);
     if (activeAudio && !activeAudio.paused) syncNow(true);
   }, true);
 

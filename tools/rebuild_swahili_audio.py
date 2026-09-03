@@ -130,6 +130,14 @@ QUESTION_TEXT_EXCLUSIONS = {
 }
 
 TOC_SPEECH = {
+    "pg006_n0013": (
+        "Jifunze zaidi kupitia Maktaba Mtandao. Tovuti yake ni o el nukta tie "
+        "nukta go nukta ti zedi."
+    ),
+    "pg006_n0013_easy_read": (
+        "Jifunze zaidi kupitia Maktaba Mtandao. Tovuti yake ni o el nukta tie "
+        "nukta go nukta ti zedi."
+    ),
     "pg003_im006": (
         "Shukurani, ukurasa wa namba ya Kirumi nne. "
         "Utangulizi, ukurasa wa namba ya Kirumi sita. "
