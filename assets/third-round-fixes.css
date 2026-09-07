@@ -1,0 +1,127 @@
+/* Validator third-round presentation fixes. */
+
+/* Match the card-style answer choices used by navigation page 26. */
+section[data-section-id="pg022_sec001"] .activity-option,
+section[data-section-id="pg023_sec001"] > .questions .activity-option {
+  margin-block: 0.75rem;
+  gap: 1rem !important;
+  padding: 1rem !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+section[data-section-id="pg022_sec001"] .activity-option:hover,
+section[data-section-id="pg023_sec001"] > .questions .activity-option:hover {
+  background: #f9fafb;
+}
+
+section[data-section-id="pg022_sec001"] .activity-option input + span,
+section[data-section-id="pg023_sec001"] > .questions .activity-option input + span {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-weight: 400;
+}
+
+section[data-section-id="pg022_sec001"] .activity-option input + span::before,
+section[data-section-id="pg023_sec001"] > .questions .activity-option input + span::before {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d1d5db;
+  border-radius: 9999px;
+  color: #6b7280;
+  font-weight: 400;
+  line-height: 1;
+}
+
+section[data-section-id="pg022_sec001"] input:is([data-activity-item="item-1"], [data-activity-item="item-5"], [data-activity-item="item-9"], [data-activity-item="item-13"], [data-activity-item="item-17"]) + span::before,
+section[data-section-id="pg023_sec001"] input[data-activity-item="item-4"] + span::before { content: "a"; }
+section[data-section-id="pg022_sec001"] input:is([data-activity-item="item-2"], [data-activity-item="item-6"], [data-activity-item="item-10"], [data-activity-item="item-14"]) + span::before,
+section[data-section-id="pg023_sec001"] input:is([data-activity-item="item-1"], [data-activity-item="item-5"]) + span::before { content: "b"; }
+section[data-section-id="pg022_sec001"] input:is([data-activity-item="item-3"], [data-activity-item="item-7"], [data-activity-item="item-11"], [data-activity-item="item-15"]) + span::before,
+section[data-section-id="pg023_sec001"] input:is([data-activity-item="item-2"], [data-activity-item="item-6"]) + span::before { content: "c"; }
+section[data-section-id="pg022_sec001"] input:is([data-activity-item="item-4"], [data-activity-item="item-8"], [data-activity-item="item-12"], [data-activity-item="item-16"]) + span::before,
+section[data-section-id="pg023_sec001"] input:is([data-activity-item="item-3"], [data-activity-item="item-7"]) + span::before { content: "d"; }
+
+section[data-section-id="pg022_sec001"] .questions,
+section[data-section-id="pg023_sec001"] > .questions {
+  margin-bottom: 1.5rem;
+}
+
+/* Show the source-book cartoon inside activity headings that lacked one. */
+.source-cartoon-title {
+  position: relative !important;
+  display: flex !important;
+  min-height: 4rem;
+  align-items: center;
+  padding-left: 4.75rem !important;
+  color: #1e3a8a !important;
+}
+
+.source-cartoon-label {
+  color: #1e3a8a !important;
+  background-color: #ffffff !important;
+}
+
+.source-cartoon-label:not(.source-cartoon-title) {
+  display: inline-block;
+  margin-left: 5rem !important;
+}
+
+.source-cartoon-title::before {
+  position: absolute;
+  left: 0.35rem;
+  top: 50%;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 9999px;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.source-cartoon-kazi::before {
+  background-image: url("../images/pg045_activity_icon.png");
+}
+
+.source-cartoon-fikiri::before {
+  background-image: url("../images/fikiri_source_icon.png");
+}
+
+/* Hide earlier placeholder drawings after the source-book Fikiri cartoon is restored. */
+section[data-section-id="pg007_sec001"] img[src$="pg095_im079.png"],
+section[data-section-id="pg025_sec003"] > div > svg[aria-hidden="true"],
+section[data-section-id="pg059_sec002"] svg[aria-hidden="true"] {
+  display: none !important;
+}
+
+/* Remove earlier placeholder figures when the source cartoon is injected. */
+section[data-section-id="pg007_sec001"] div:has(> [data-id="pg007_n0014"]) > div:first-child,
+section[data-section-id="pg016_sec002"] > div:first-child > div:first-child,
+section[data-section-id="pg029_sec001"] div:has(> [data-id="pg029_n0013"]) > div:first-child,
+section[data-section-id="pg034_sec001"] div:has(> [data-id="pg034_n0003"]) > div:first-child,
+section[data-section-id="pg036_sec001"] > div > div.absolute:first-of-type,
+section[data-section-id="pg046_sec001"] div:has(> [data-id="pg046_n0018"]) > div:has(img[src$="pg095_im079.png"]),
+section[data-section-id="pg047_sec001"] div:has(> div > [data-id="pg047_n0008"]) > div:first-child,
+section[data-section-id="pg062_sec001"] div:has(> div > [data-id="pg062_n0019"]) > div:first-child {
+  display: none !important;
+}
+
+@media (max-width: 640px) {
+  .source-cartoon-title {
+    min-height: 3.25rem;
+    padding-left: 3.9rem !important;
+  }
+
+  .source-cartoon-title::before {
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+}

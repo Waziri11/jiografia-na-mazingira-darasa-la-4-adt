@@ -919,38 +919,12 @@
     "review_notes": "Interactive controls present."
   },
   {
-    "reader_position": 53,
-    "pdf_page": 35,
-    "section_id": "pg041_sec001",
-    "href": "pg041_sec001.html",
-    "source_text_ids": [
-      "pg041_n0002",
-      "pg041_im003"
-    ],
-    "source_images": [
-      "pg041_im003.jpg"
-    ],
-    "activity_type": "instructional_practical",
-    "question_count": 1,
-    "current_state": "static_text_or_image",
-    "answer_key_status": "not_applicable",
-    "conversion_status": "intentionally_instructional",
-    "controls": {
-      "textareas": 0,
-      "text_inputs": 0,
-      "radio_options": 0,
-      "matching_items": 0,
-      "dropzones": 0
-    },
-    "review_notes": "Practical/drawing/external-tool task retained as instructions."
-  },
-  {
     "reader_position": 54,
     "pdf_page": 35,
     "section_id": "pg041_sec002",
     "href": "pg041_sec002.html",
     "source_text_ids": [
-      "pg041_n0002",
+      "pg041_n0006",
       "pg041_n0003"
     ],
     "source_images": [],
@@ -2308,6 +2282,8 @@
     "section_id": "pg088_sec001",
     "href": "pg088_sec001.html",
     "source_text_ids": [
+      "pg087_n0015",
+      "pg087_n0016",
       "pg088_n0003",
       "pg088_n0005",
       "pg088_n0007",

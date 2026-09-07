@@ -89,6 +89,7 @@ ENGLISH_SPEECH = (
     (r"\bAutoCAD\b", "Oto Kad"),
     (r"\bArcGIS\b", "Ark Jee Ai Es"),
     (r"\bQGIS\b", "Kyu Jee Ai Es"),
+    (r"\bGIS\b", "Jee Ai Es"),
 )
 
 # Some layouts keep the question number in its own text node. These IDs must be
@@ -108,6 +109,7 @@ QUESTION_NUMBER_IDS = {
     "pg081_n0006": 1, "pg081_n0009": 2, "pg081_n0012": 3,
     "pg081_n0015": 4, "pg081_n0018": 5,
     "pg087_n0005": 1,
+    "pg087_n0015": 2,
     "pg088_n0011": 3, "pg088_n0022": 4, "pg088_n0033": 5, "pg088_n0046": 6,
     "pg090_n0006": 1, "pg090_n0017": 2, "pg090_n0028": 3,
     "pg090_n0039": 4, "pg090_n0050": 5,
@@ -207,6 +209,8 @@ TOC_SPEECH.update({
     "pg029_n0016_easy_read": "Swali la kwanza. Nenda nje ya darasa wakati wa asubuhi. Simama katikati ya shule yako.",
     "pg029_n0018_easy_read": "Swali la pili. Baini upande ambao jua linachomoza. Kisha bainisha Pande Kuu za Dunia. Halafu taja vitu vilivyopo upande huo.",
     "pg029_n0020_easy_read": "Swali la tatu. Tengeneza kifani cha Pande Kuu za Dunia. Tumia makunzi yanayopatikana katika mazingira yako.",
+    "pg041_n0006": "Zoezi namba moja.",
+    "pg041_n0006_easy_read": "Zoezi namba moja.",
 })
 TOC_SPEECH.update(TABLE_23_SPEECH)
 TOC_SPEECH.update({f"{key}_easy_read": value for key, value in TABLE_23_SPEECH.items()})
@@ -275,6 +279,7 @@ def question_number(key: str, text: str):
 
 def speech_text(text: str, key: str = "") -> str:
     text = text.replace("FOR ONLINE READING ONLY", "")
+    text = re.sub(r"\[\[blank:[^\]]+\]\]", "nafasi iliyoachwa wazi", text)
     for pattern, pronunciation in ENGLISH_SPEECH:
         text = re.sub(pattern, pronunciation, text, flags=re.IGNORECASE)
     q_number = question_number(key, text) if key else None
@@ -366,6 +371,12 @@ async def main():
     parser.add_argument("--concurrency", type=int, default=12)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--match", help="Only synthesize text matching this regular expression")
+    parser.add_argument(
+        "--key",
+        action="append",
+        default=[],
+        help="Only synthesize this exact audio key; repeat for multiple keys",
+    )
     parser.add_argument("--english-only", action="store_true",
                         help="Only rebuild text containing a configured English term")
     parser.add_argument("--questions-only", action="store_true",
@@ -376,9 +387,13 @@ async def main():
     audios = json.loads((ROOT / "content/i18n/sw/audios.json").read_text(encoding="utf-8"))
     jobs = []
     for key, filename in audios.items():
-        match = re.match(r"pg(\d{3})_", key)
-        if not match or not (args.start_page <= int(match.group(1)) <= args.end_page):
-            continue
+        if args.key:
+            if key not in args.key:
+                continue
+        else:
+            match = re.match(r"pg(\d{3})_", key)
+            if not match or not (args.start_page <= int(match.group(1)) <= args.end_page):
+                continue
         text = texts.get(key, "")
         if not text.strip():
             continue
@@ -407,7 +422,9 @@ async def main():
     # Both bundle languages contain the same Swahili text; keep every mapped
     # page narration identical, including unchanged/empty-text legacy clips.
     for key, filename in audios.items():
-        if not key.startswith("pg"):
+        if args.key and key not in args.key:
+            continue
+        if not args.key and not key.startswith("pg"):
             continue
         source = ROOT / "content/i18n/sw/audio" / filename
         target = ROOT / "content/i18n/sw-TZ/audio" / filename
